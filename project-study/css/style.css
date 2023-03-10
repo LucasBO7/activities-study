@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Great Vibes-Regular';
+    src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: 'PtSerif-Bold';
+    src: url(../assets/fonts/PT_Serif/PTSerif-Bold.ttf);
+}
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'TitilliumWeb-Regular';
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+
+
+/* Reset do CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.title-hand-big{
+    font-family: 'Great Vibes-Regular';
+    font-size: 64px;
+    color: white;
+}
+.title-serif-bold-medium{
+    font-family: 'PtSerif-Bold';
+    font-size: 25px;
+    color: white;
+}
+.title-titillium-medium{
+    font-family: 'TitilliumWeb-Regular';
+    font-size: 24px;
+    color: white;
+}
+.title-serif-bold-small{
+    font-family: 'PtSerif-Bold';
+    font-size: 20px;
+    color: white;
+}
+.text-quicksand-small{
+    font-family: 'Quicksand-Regular';
+    font-size: 16px;
+    color: black;
+}
+
+
+
+.layout-grid {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+header {
+    height: 110px;
+    max-height: 111px;
+    width: 100%;
+
+    background-color: #1B4163;
+}
