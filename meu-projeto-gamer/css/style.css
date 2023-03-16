@@ -34,6 +34,10 @@
     font-family: 'Inter-Regular';
     font-size: 15px;
 }
+.quicksand-white-small{
+    font-family: 'Quicksand-Regular';
+    font-size: 13px;
+}
 
 .titillium-black-big {
     font-family: 'Titillium-web-Black';
@@ -45,6 +49,13 @@
     font-size: 18px;
     color: #1B1426;
     text-transform: uppercase;
+}
+.titillium-white-small{
+    font-family: 'Titillium-web-Black';
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 6 #C6A5E5;
 }
 
 .titillium-bold-small{
@@ -185,10 +196,17 @@ main {
     border-bottom: 2px solid #1B1426;
 }
 
-.card{
-    background-color: red;
+/* Cards & Images */
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 1300px;
+    width: 336px;
 }
-#services-banner #card-1{
+#services-banner #card-image{
+    position: relative;
     width: 314px;
     height: 511px;
     
@@ -197,7 +215,9 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
 }
-#services-banner #card-2{
+#services-banner #card-image-2{
+    position: relative;
+    align-self: center;
     width: 322px;
     height: 428px;
     
@@ -206,19 +226,84 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
 }
-#services-banner .card article {
+#services-banner .cards article {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     
-    padding: 28px;
+    padding: 26px;
     width: 231px;
     height: 300px;
     
-    background-image: linear-gradient(to right bottom, #7A31EC 20%, #2F076D 83% );
+    background-image: linear-gradient(to right bottom, rgba(122, 49, 236, 0.2), rgba(47, 7, 109, 0.83));
+    backdrop-filter: blur(15px);
     border-radius: 8px;
+}
+#services-banner article p{
+    text-align: justify;
+}
+#card-1{
+    position: absolute;
+    top: 105px;
+    right: -22px;
+}
+#card-2{
+    position: absolute;
+    left: -13px;
+    bottom: 13px;
 }
 
 
 
+/* News Banner */
+#news-banner{    
+    height: 3675px;
+    
+    background-image: url(../assets/images/backgrund_notícias.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+#flex-news-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Card */
+#news-banner article{
+    width: 335px;
+    height: 387px;
+    
+    background-image: linear-gradient(to right bottom, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.79));
+    border-radius: 8px;
+}
+
+#news-banner article img{
+    width: 335px;
+    height: 174px;
+}
+
+#news-banner article div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+    padding: 16px 26px;
+}
+#news-banner article div h3{
+    padding: 16px 0;
+    
+    color: white;
+    font-size: 24px;
+}
+#news-banner article div p{
+    font-size: 16px;
+}
+
+section div div{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+}
