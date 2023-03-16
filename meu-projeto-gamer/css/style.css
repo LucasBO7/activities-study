@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Titillium-web-Black';
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+@font-face {
+    font-family: 'Titillium-web-Bold';
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+.black {
+    background-color: #1B1426;
+}
+
+.yellow {
+    background-color: #F9AA01;
+}
+
+.gray {
+    background-color: #D9D9D9;
+}
+
+
+.inter-regular-small {
+    font-family: 'Inter-Regular';
+    font-size: 15px;
+}
+
+.titillium-black-big {
+    font-family: 'Titillium-web-Black';
+    font-size: 40px;
+    text-shadow: 0 0 7px red;
+}
+.titillium-black-small{
+    font-family: 'Titillium-web-Black';
+    font-size: 18px;
+    color: #1B1426;
+    text-transform: uppercase;
+}
+
+.titillium-bold-small{
+    font-family: 'Titillium-web-Bold';
+    font-size: 16px;
+    color: black;
+}
+
+/* Botoes */
+.btn-yellow{
+    width: 203px;
+    height: 40px;
+
+    background-color: #F9AA01;
+    color: black;
+
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Titillium-web-Bold';
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+/*      Classes Genéricas        */
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 1px solid salmon; */
+}
+
+/* Alinha os itens ao centro com espaço entre seus elementos */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    color: white;
+}
+
+/*                                      MOBILE FIRST                                     */
+
+main {
+    padding-top: 60px;
+}
+
+/* Home Banner */
+#home-banner {
+    height: 606px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 86px;
+
+    background-image: url(../assets/images/valorant-pergunte-3-scaled\ 1.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Destaques Banner */
+
+#destaques-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 69px;
+    height: 590px;
+
+    background-color: #1B1426;
+}
+
+/* VERSAO MANUAL
+
+#destaques-banner article div{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    width: 100%;
+    height: 50px;
+    
+    background-color: rgba(255, 255, 255, 0.641);
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 8px;
+}
+#destaques-banner article div #text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 27px;
+    width: 200px;
+    height: 40px;
+    border-radius: 0;
+    
+    background-color: #F9AA01;
+    transform: skew(-30deg);
+} */
+
+
+
+/* Services Banner */
+#services-banner{
+    padding: 84px 0;
+    height: 1535px;
+
+    background-color: #F9AA01;
+}
+
+#services-banner h2{
+    letter-spacing: 2px;
+    padding-bottom: 46px;
+    border-bottom: 2px solid #1B1426;
+}
+
+.card{
+    background-color: red;
+}
+#services-banner #card-1{
+    width: 314px;
+    height: 511px;
+    
+    background-image: url(../assets/images/personagem-jogo-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#services-banner #card-2{
+    width: 322px;
+    height: 428px;
+    
+    background-image: url(../assets/images/personagem-jogo-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#services-banner .card article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 28px;
+    width: 231px;
+    height: 300px;
+    
+    background-image: linear-gradient(to right bottom, #7A31EC 20%, #2F076D 83% );
+    border-radius: 8px;
+}
+
+
+

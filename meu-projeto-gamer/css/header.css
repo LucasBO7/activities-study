@@ -1,0 +1,76 @@
+/* HEADER */
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    height: 60px;
+    background-color: #1b1426;
+}
+/* Parte de cima da Header */
+header .header-top {
+    display: none;
+}
+/* Parte de baixo da Header */
+header .header-bottom {
+    height: 60px;
+}
+/* Logotipo */
+header .logo {
+    width: 86px;
+}
+
+/* Header BOX */
+header nav {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+
+    z-index: 2;
+    display: none; /* flex */
+    flex-direction: column;
+    
+    width: 80vw;
+    height: calc(100vh - 60px);
+    padding-bottom: 20px;
+
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+}
+
+/* Links parentes direto da Header BOX */
+header .header-bottom nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    
+    border-bottom: 2px solid #F9AA01;
+}
+
+/* diminui o tamanho de algumas informações impostas no menu */
+header .header-bottom nav p{
+    font-size: 10px;
+}
+
+/* aplica formatação no primeiro item dos links do menu */
+header .header-bottom nav a:last-of-type {
+    border: none;
+}
+
+/* ícones redes sociais */
+header .header-bottom nav .midias-sociais{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+
+    
+    display: flex; 
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+header .menu-usuarios {
+    display: none;
+}
