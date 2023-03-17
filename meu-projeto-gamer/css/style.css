@@ -257,7 +257,7 @@ main {
 
 
 /* News Banner */
-#news-banner{    
+#news-banner{
     height: 3675px;
     
     background-image: url(../assets/images/backgrund_notícias.png);
@@ -265,45 +265,79 @@ main {
     background-position: top;
     background-size: cover;
 }
-#flex-news-banner{
+
+/* Container do total de cards */
+#news-banner #flex-cards{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+}
+
+/* Título */
+#news-banner #news-title{
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 72px 0;
+    width: 204px;
+    
+    border-bottom: 2px solid #F9AA01;
 }
 
 /* Card */
-#news-banner article{
+#news-banner .card{
     width: 335px;
     height: 387px;
     
-    background-image: linear-gradient(to right bottom, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.79));
+    background-image: linear-gradient(to bottom right, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.79));
     border-radius: 8px;
 }
-
-#news-banner article img{
-    width: 335px;
+#news-banner .card img{
+    width: 100%;
     height: 174px;
 }
 
-#news-banner article div{
+#news-banner .card div{
     display: flex;
     flex-direction: column;
     align-items: left;
     
     padding: 16px 26px;
+    gap: 26px;
+    height: 210px;
+    padding-left: 25px;
+    /* background-color: red; */
 }
-#news-banner article div h3{
-    padding: 16px 0;
-    
-    color: white;
+#news-banner .card div h2{
+    font-family: 'Titillium-web-Bold';
     font-size: 24px;
 }
-#news-banner article div p{
+#news-banner .card div p{
+    font-family: 'Quicksand-Regular';
     font-size: 16px;
 }
 
-section div div{
+
+
+
+/* Footer */
+footer{
+    height: 1531px;
+    
+    background-image: url(../assets/images/backgroung_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+footer #color-transitor{
+    width: 375px;
+    height: 212px;
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 2, 1.0), rgba(67, 3, 99, 0.03));
+}
+
+footer .flex-footer{
     display: flex;
     flex-direction: column;
-    justify-items: space-evenly;
+    align-items: center;
 }
