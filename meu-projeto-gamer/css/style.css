@@ -116,6 +116,12 @@ main {
     padding-top: 60px;
 }
 
+.midias-sociais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Home Banner */
 #home-banner {
     height: 606px;
@@ -321,7 +327,17 @@ main {
 
 
 /* Footer */
+#color-transitor{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 212px;
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 2, 1.0), rgba(67, 3, 99, 0.03));
+}
+
 footer{
+    position: relative;
     height: 1531px;
     
     background-image: url(../assets/images/backgroung_footer.png);
@@ -329,15 +345,34 @@ footer{
     background-size: cover;
     background-position: bottom;
 }
-footer #color-transitor{
-    width: 375px;
-    height: 212px;
-    
-    background-image: linear-gradient(to bottom, rgba(0, 0, 2, 1.0), rgba(67, 3, 99, 0.03));
-}
-
 footer .flex-footer{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    padding-top: 74px;
+    text-align: justify;
+}
+
+footer .flex-footer div{
+    width: 335px;
+}
+
+/* Links Redes Sociais */
+footer .midias-sociais{
+    margin-top: 80px;
+}
+footer .midias-sociais img{
+    height: 40px;
+    width: 40px;
+}
+
+footer #links-uteis #footer-title{
+    font-family: '';
+}
+
+footer #links-uteis li{
+    /* list-style-image: url(../assets/images/); */
 }
