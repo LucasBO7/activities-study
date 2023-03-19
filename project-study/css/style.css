@@ -38,7 +38,7 @@
 }
 .title-titillium-medium{
     font-family: 'TitilliumWeb-Regular';
-    font-size: 24px;
+    font-size: 18px;
     color: white;
 }
 .title-serif-bold-small{
@@ -54,16 +54,45 @@
 
 
 
+
+
 .layout-grid {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
 }
+.logotipo{
+    height: 61px;
+}
 
 header {
-    height: 110px;
+    height: 90px;
     max-height: 111px;
     width: 100%;
 
     background-color: #1B4163;
+}
+
+header .flex-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 90px;
+}
+
+header .navigation-links{
+    display: flex;
+    justify-content: space-between;
+
+    width: 450px;
+}
+
+header .navigation-links a{
+    padding: 15px;
+    
+    border-left: 1px solid #122a3f;
+
+    background-color: orange;
 }
