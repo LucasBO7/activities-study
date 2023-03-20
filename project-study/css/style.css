@@ -2,14 +2,17 @@
     font-family: 'Great Vibes-Regular';
     src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf);
 }
+
 @font-face {
     font-family: 'PtSerif-Bold';
     src: url(../assets/fonts/PT_Serif/PTSerif-Bold.ttf);
 }
+
 @font-face {
     font-family: 'Quicksand-Regular';
     src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: 'TitilliumWeb-Regular';
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
@@ -26,27 +29,31 @@
     color: white;
 }
 
-.title-hand-big{
+.title-hand-big {
     font-family: 'Great Vibes-Regular';
     font-size: 64px;
     color: white;
 }
-.title-serif-bold-medium{
+
+.title-serif-bold-medium {
     font-family: 'PtSerif-Bold';
     font-size: 25px;
     color: white;
 }
-.title-titillium-medium{
+
+.title-titillium-medium {
     font-family: 'TitilliumWeb-Regular';
     font-size: 18px;
     color: white;
 }
-.title-serif-bold-small{
+
+.title-serif-bold-small {
     font-family: 'PtSerif-Bold';
     font-size: 20px;
     color: white;
 }
-.text-quicksand-small{
+
+.text-quicksand-small {
     font-family: 'Quicksand-Regular';
     font-size: 16px;
     color: black;
@@ -55,16 +62,19 @@
 
 
 
-
+/* Centraliza o conteúdo geral do site */
 .layout-grid {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
 }
-.logotipo{
+
+.logotipo {
     height: 61px;
 }
 
+
+/* Header */
 header {
     height: 90px;
     max-height: 111px;
@@ -73,7 +83,7 @@ header {
     background-color: #1B4163;
 }
 
-header .flex-header{
+header .flex-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,17 +92,46 @@ header .flex-header{
     height: 90px;
 }
 
-header .navigation-links{
+header .navigation-links {
     display: flex;
     justify-content: space-between;
 
     width: 450px;
 }
 
-header .navigation-links a{
-    padding: 15px;
-    
-    border-left: 1px solid #122a3f;
+header .navigation-links a {
+    padding: 15px 0;
+    width: 100px;
+    text-align: center;
 
-    background-color: orange;
+    border-radius: 10px;
+
+    z-index: 1;
+    position: relative;
+}
+
+/* Hover effect */
+header .navigation-links a::before{
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Esconde o preenchimento */
+    width: 0;
+    height: 100%;
+    border-radius: 10px;
+
+    background-color: #132e46;
+    box-shadow: none;
+
+    /* Para o preenchimento não cobrir o texto */
+    z-index: -1;
+    transition: .4s ease;
+}
+/* Ao realizar o HOVER... as propriedades do "a::before" receberão... */
+header .navigation-links a:hover::before{
+    width: 100%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.541);
 }
