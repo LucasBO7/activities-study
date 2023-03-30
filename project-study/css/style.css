@@ -27,13 +27,9 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
+    outline: none;
 }
 
-.title-hand-big {
-    font-family: 'Great Vibes-Regular';
-    font-size: 64px;
-    color: white;
-}
 
 .title-serif-bold-medium {
     font-family: 'PtSerif-Bold';
@@ -51,12 +47,6 @@
     font-family: 'PtSerif-Bold';
     font-size: 20px;
     color: white;
-}
-
-.text-quicksand-small {
-    font-family: 'Quicksand-Regular';
-    font-size: 16px;
-    color: black;
 }
 
 
@@ -154,16 +144,17 @@ main section{
     width: 100%;
     height: 945px;
 
-    backdrop-filter: blur(8px);
     background-image: url(../assets/images/fundo-biblia.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    backdrop-filter: blur(8px);
 }
 main #home-banner{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 
     padding-top: 70px;
     height: 946px;
@@ -174,7 +165,62 @@ main #home-banner h1 {
 }
 
 
-/* Título container */
+/* Search Elements */
+section #home-banner #search-elements {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+    width: 100%;
+    height: 38px;
+}
+
+section #home-banner #search-elements input {
+    height: 100%;
+    width: 85%;
+    padding: 0 18px;
+
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(217, 217, 217, 0.74);
+    backdrop-filter: blur(4px);
+}
+
+section #home-banner #search-elements button {
+    height: 100%;
+    width: 15%;
+
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color ease 0.2s;
+    cursor: pointer;
+    backdrop-filter: blur(12px);
+}
+section #home-banner #search-elements button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+section #home-banner #country-filter-container {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    
+    width: 112%;
+    height: 92px;
+
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgba(71, 66, 80, 0.44);
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+section #home-banner #country-filter-container img {
+    height: 60px;
+    width: 60px;
+}
 
 
 /* Mobile <= 768px */
