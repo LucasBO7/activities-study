@@ -1,0 +1,15 @@
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.exe
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.deps.json
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.runtimeconfig.json
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.dll
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\bin\Debug\net7.0\jogo-da-velha.pdb
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.csproj.AssemblyReference.cache
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.AssemblyInfoInputs.cache
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.AssemblyInfo.cs
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.csproj.CoreCompileInputs.cache
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.dll
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\refint\jogo-da-velha.dll
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.pdb
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\jogo-da-velha.genruntimeconfig.cache
+C:\Users\41365718875\Desktop\activities-study\jogo-da-velha\obj\Debug\net7.0\ref\jogo-da-velha.dll
