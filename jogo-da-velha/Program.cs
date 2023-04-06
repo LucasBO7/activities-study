@@ -34,7 +34,7 @@ Dictionary<string, int> jogadas = new Dictionary<string, int>();
 for (int x = 1; x <= 9; x++)
 {
     // jogadas.Add($"padrao{x}", x);
-    valores[x - 1] = (char)x; // Tá dando erro
+    valores[x - 1] = char.Parse(x); // Tá dando erro
 }
 
 
@@ -42,7 +42,7 @@ for (int x = 1; x <= 9; x++)
 
 foreach (var item in valores)
 {
-    Console.WriteLine(item);
+    Console.WriteLine(item.ToString());
 }
 
 
