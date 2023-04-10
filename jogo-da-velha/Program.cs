@@ -25,17 +25,15 @@ string usuarioComecaPartida = Console.ReadLine().ToLower();
 Console.Write($"Deseja utilizar 'x' ou 'o'? ");
 char simboloUsuario = char.Parse(Console.ReadLine().ToLower());
 
+// Pega o simbolo do bot como o contrário do usuário
+char simboloBot = simboloUsuario == 'x' ? 'o' : 'x';
+
 // Se o usuário for começar a partida
 
-char[] valores = new char[9];
+char[] valores = new char[9] { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
 // Insere valores padrões da tabela (1,2,3...9)
 Dictionary<string, int> jogadas = new Dictionary<string, int>();
-for (int x = 1; x <= 9; x++)
-{
-    // jogadas.Add($"padrao{x}", x);
-    valores[x - 1] = char.Parse(x); // Tá dando erro
-}
 
 
 // Pega todos os valores padrão da lista de jogadas
@@ -45,22 +43,58 @@ foreach (var item in valores)
     Console.WriteLine(item.ToString());
 }
 
-
-if (usuarioComecaPartida == "sim")
+char continuarJogo = 's';
+do
 {
-    Console.WriteLine(@$"
+    if (usuarioComecaPartida == "sim")
+    {
+        Console.WriteLine(@$"
+  {valores[0]}  |  {valores[1]}  |  {valores[2]}  |
+__________________
+
+  {valores[3]}  |  {valores[4]}  |  {valores[5]}  |
+__________________
+
+  {valores[6]}  |  {valores[7]}  |  {valores[8]}  |
 
 
-      {valores[0]}  |  {valores[1]}  |  {valores[2]}  |
-      __________________
-      {valores[3]}  |  {valores[4]}  |  {valores[5]}  |
-      __________________
-      {valores[6]}  |  {valores[7]}  |  {valores[8]}  |
     ");
 
-    Console.Write($"Insira a casa em que deseja jogar: ");
-    int casaJogada = int.Parse(Console.ReadLine());
+        Console.Write($"Insira a casa em que deseja jogar: ");
+        int casaJogada = int.Parse(Console.ReadLine());
 
-    valores[casaJogada] = 'x';
+        valores[casaJogada - 1] = 'x';
 
-}
+        Console.WriteLine(@$"
+  {valores[0]}  |  {valores[1]}  |  {valores[2]}  |
+__________________
+
+  {valores[3]}  |  {valores[4]}  |  {valores[5]}  |
+__________________
+
+  {valores[6]}  |  {valores[7]}  |  {valores[8]}  |
+
+
+    ");
+
+
+
+        List<int> posicoesLivres = new List<int>(); // Posições que o usuário ainda não jogou
+        foreach (var item in valores)
+        {
+            // adicionar o valor somente se o usuário já não colocou naquela posição
+            if (item != simboloUsuario)
+            {
+                posicoesLivres.Add(item);
+            }
+        }
+
+        Random randomNumberSelector = new Random();
+        var jogadaEscolhida = posicoesLivres[randomNumberSelector.Next(posicoesLivres.Count)];
+        Console.WriteLine($"Casa escolhida pelo bot: {jogadaEscolhida}");
+
+        // Insere a casa escolhida pelo bot na lista de valores
+        valores[jogadaEscolhida - 1] = simboloBot;
+        continuarJogo = char.Parse(Console.ReadLine().ToLower());
+    }
+} while (continuarJogo == 's');

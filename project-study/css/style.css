@@ -191,7 +191,8 @@ section #home-banner #search-elements input {
     color: black;
     background-color: rgba(217, 217, 217, 0.74);
 }
-section #home-banner #search-elements input::before{
+
+section #home-banner #search-elements input::before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -216,7 +217,8 @@ section #home-banner #search-elements button {
     background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
-section #home-banner #search-elements button::before{
+
+section #home-banner #search-elements button::before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -253,6 +255,13 @@ section #home-banner #country-filter-container img {
 }
 
 
+/* Card */
+article div {
+    width: 419px;
+    height: 447px;
+}
+
+
 /* Mobile <= 768px */
 @media screen and (max-width: 768px) {
 
@@ -274,9 +283,11 @@ section #home-banner #country-filter-container img {
         margin-top: -25px;
         font-size: 40px;
     }
+
     #home-banner #search-elements button span {
         display: none;
     }
+
     #home-banner #search-elements button {
         background-image: url(../assets/icons/icone-pesquisa.svg);
         background-repeat: no-repeat;
@@ -288,6 +299,7 @@ section #home-banner #country-filter-container img {
     #home-banner #country-filter-container {
         height: 80px !important;
     }
+
     #home-banner #country-filter-container img {
         width: 60px !important;
         height: 60px !important;
