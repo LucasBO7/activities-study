@@ -28,6 +28,7 @@
     text-decoration: none;
     color: white;
     outline: none;
+    overflow-x: unset;
 }
 
 
@@ -151,7 +152,7 @@ main section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    backdrop-filter: blur(8px);
+    /* filter: blur(28px); */
 }
 
 main #home-banner {
@@ -255,10 +256,81 @@ section #home-banner #country-filter-container img {
 }
 
 
+
+/* Cards container */
+section #cards-container{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 20px;
+}
+
+
 /* Card */
-article div {
-    width: 419px;
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article .card {
+    position: relative;
+    /* z-index: 1; */
+
+    width: 380px; /* 419px */
     height: 447px;
+    /* transition: opacity ease 1s; */
+}
+article .card > img{
+    width: 100%;
+    height: 447px;
+}
+
+article .card:hover .hovered-infos-container {
+    display: flex;
+    flex-direction: column;
+    direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    opacity: 1;
+}
+
+/* Card-on-hover */
+article .hovered-infos-container {
+    display: unset;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 25px;
+    padding: 20px 60px;
+    opacity: 0;
+
+    background-image: linear-gradient(to bottom, rgba(71, 66, 80, 0.5), rgba(71, 66, 80, 0.33));
+    backdrop-filter: blur(33px);
+    transition: opacity ease 0.5s;
+    text-align: center;
+}
+
+article .hovered-infos-container p {
+    margin-top: 30px;
+    text-align: justify;
+    word-spacing: 2px;
+
+    font-family: 'Quicksand-Regular';
+    font-size: 16px;
+    color: black;
+}
+
+article .publishment-author-container a {
+    color: rgb(0, 174, 255);
+    text-decoration: underline;
 }
 
 

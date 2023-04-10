@@ -6,6 +6,12 @@
     color: white;
 }
 
+.title-card {
+    font-family: 'PtSerif-Bold';
+    font-size: 20px;
+    color: white;
+}
+
 .paragraph-1 {
     font-family: 'Quicksand-Regular';
     font-size: 14px;
