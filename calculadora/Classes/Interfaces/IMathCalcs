@@ -1,0 +1,12 @@
+using System;
+
+namespace Calculadora
+{
+    public interface IMathCalcs
+    {
+        public void Soma(string operation, double[] numbers)
+        {
+            operation.Split(Math.Operator);
+        }
+    }
+}

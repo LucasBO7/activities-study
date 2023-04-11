@@ -79,22 +79,42 @@ __________________
 
 
 
-        List<int> posicoesLivres = new List<int>(); // Posições que o usuário ainda não jogou
-        foreach (var item in valores)
+        int[] posicoesLivres = new int[9]; // Posições que o usuário ainda não jogou]
+        for (int i = 0; i <= valores.Length; i++)
         {
-            // adicionar o valor somente se o usuário já não colocou naquela posição
-            if (item != simboloUsuario)
-            {
-                posicoesLivres.Add(item);
-            }
+          posicoesLivres[i] = valores[i];
+          Console.WriteLine($"Posição: {posicoesLivres[i]}");
+        }
+        // foreach (var item in valores)
+        // {
+        //     Console.WriteLine($"{item}");
+        //     // adicionar o valor somente se o usuário já não colocou naquela posição
+        //     Console.WriteLine("item: " + item);
+
+        //     posicoesLivres.Add(item);
+
+        //     if (item != simboloUsuario)
+        //     {
+        //     }
+        // }
+        // Console.ReadLine();
+
+        foreach (var item in posicoesLivres)
+        {
+            Console.WriteLine($"{item}");
         }
 
-        Random randomNumberSelector = new Random();
-        var jogadaEscolhida = posicoesLivres[randomNumberSelector.Next(posicoesLivres.Count)];
-        Console.WriteLine($"Casa escolhida pelo bot: {jogadaEscolhida}");
+        // Random randomNumberSelector = new Random(DateTime.Now.Millisecond);
+        // int indice = randomNumberSelector.Next(1);
+        // int numeroAleatorio = posicoesLivres[indice];
+        // Console.WriteLine($"Número aleatório escolhido: {numeroAleatorio}");
 
-        // Insere a casa escolhida pelo bot na lista de valores
-        valores[jogadaEscolhida - 1] = simboloBot;
-        continuarJogo = char.Parse(Console.ReadLine().ToLower());
+
+        // var jogadaEscolhida = posicoesLivres[randomNumberSelector.Next(posicoesLivres.Count)];
+        // Console.WriteLine($"Casa escolhida pelo bot: {jogadaEscolhida}");
+
+        // // Insere a casa escolhida pelo bot na lista de valores
+        // valores[jogadaEscolhida - 1] = simboloBot;
+        // continuarJogo = char.Parse(Console.ReadLine().ToLower());
     }
 } while (continuarJogo == 's');
