@@ -1,0 +1,1 @@
+Applicação que gerará exercícios e poderá checar o valor final e . Atualmente, o foco é em matemática, mas poderá futuramente ser usada em exercícios de outras matérias.
