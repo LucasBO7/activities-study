@@ -1,0 +1,31 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Home Page";
+    ViewBag.AlternativeBtnClicked = false;
+}
+
+<div class="text-center">
+
+    <form method="post" action='@Url.Action("GetAlternative", "Home")'>
+        <button asp-controller="Home" asp-action="GetAlternative">Alternativa</button>
+        <input type="text" id="inputsg" name="inputsg">
+
+        @if (ViewBag.AlternativeBtnClicked == true)
+        {
+            @ViewBag.Content
+            @Model
+        }
+
+        <button type="submit">Salvar</button>
+    </form>
+
+    @ViewBag.Cliente.Nome
+    @foreach (var item in ViewBag.Cliente.Compras)
+    {
+        @item.NomeProduto
+    }
+
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
