@@ -10,16 +10,21 @@ using System.Text.Json;
 using static System.Net.Mime.MediaTypeNames;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
+using Speech.Demo;
 //using Azure.Identity;
 
 // This example requires environment variables named "COGNITIVE_SERVICE_KEY " and "SPEECH_REGION"
-string speechKey = Environment.GetEnvironmentVariable("COGNITIVE_SERVICE_KEY");
-string speechRegion = Environment.GetEnvironmentVariable("SPEECH_REGION");
+//string speechKey = Environment.GetEnvironmentVariable("COGNITIVE_SERVICE_KEY");
+//string speechRegion = Environment.GetEnvironmentVariable("SPEECH_REGION");
+string speechKey = "440095e447ac4b6f8acf9f8a726304f6";
+string speechRegion = "eastus";
 
 Uri endpoint = new Uri("https://lucaslanguageresource.cognitiveservices.azure.com/");
 AzureKeyCredential credential = new AzureKeyCredential("4a35c926e6174165a93e8108feb872b0"); // Não é o certo, mas como está local o projeto, só vamo
 
 bool jarvisJaFoiAcionado = false;
+
+string recognizedText;
 
 async Task OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecognitionResult, SpeechConfig speechConfig)
 {
@@ -72,6 +77,9 @@ async Task OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecogniti
             using (var speechSynthesizer = new SpeechSynthesizer(speechConfig))
             {
                 string voice_speech;
+                string textoSemJarvis = speechRecognitionResult.Text.ToLower().Replace("jarvis", "");
+
+
                 switch (conversationPrediction.GetProperty("topIntent").GetString())
                 {
                     case "HorarioAtual":
@@ -81,9 +89,36 @@ async Task OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecogniti
 
                         Console.WriteLine(DateTime.Now.ToShortTimeString());
                         break;
+                    case "Pesquisa":
+                        // Pesquisa no ChatGpt
+
+                        /*
+                        var openAIApiClient = new OpenAIApiClient("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");
+                        var requestResponse = openAIApiClient.SendPrompt(recognizedText, "davinci");
+
+                        Console.WriteLine(requestResponse);
+                        voice_speech = "FOI";*/
+
+                        var openAIApiClient = new OpenAIApiClient("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");
+                        var requestResponse = await openAIApiClient.SendPrompt(textoSemJarvis, "gpt-3.5-turbo");
+                        Console.WriteLine("Resposta: " + requestResponse);
+                        voice_speech = requestResponse;
+                        break;
                     case "None":
                         // Get text from the console and synthesize to the default speaker.
-                        voice_speech = $"Não tenho comandos definidos para responder!";
+                        //voice_speech = $"Não tenho comandos definidos para responder!";
+
+                        /*
+                        openAIApiClient = new OpenAIApiClient("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");
+                        requestResponse = openAIApiClient.SendPrompt(recognizedText, "davinci");
+
+                        Console.WriteLine(requestResponse);
+                        voice_speech = "FOI";*/
+
+                        openAIApiClient = new OpenAIApiClient("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");
+                        requestResponse = await openAIApiClient.SendPrompt(textoSemJarvis, "gpt-3.5-turbo");
+                        Console.WriteLine("Resposta: " +  requestResponse);
+                        voice_speech = requestResponse;
                         break;
                     default:
                         voice_speech = $"Houve algúm erro!";
@@ -142,6 +177,7 @@ do
 
     Console.WriteLine("FUNCIONOU!!!");
     Console.WriteLine("Texto captado: " + speechRecognitionResult.Text);
+    recognizedText = speechRecognitionResult.Text;
 
     // Trata o que o texto dito para condição
     #region Tratamento_do_camando_dito_para_condição
