@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleb_\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj": {}
+    "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleb_\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj": {
+    "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleb_\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj",
+        "projectUniqueName": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj",
         "projectName": "Speech.Demo",
-        "projectPath": "C:\\Users\\cleb_\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj",
-        "packagesPath": "C:\\Users\\cleb_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleb_\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\obj\\",
+        "projectPath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\Speech.Demo.csproj",
+        "packagesPath": "C:\\Users\\Batata Voadora\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\Speech.Demo\\Speech.Demo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cleb_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Batata Voadora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,9 +53,17 @@
               "target": "Package",
               "version": "[1.10.3, )"
             },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.CognitiveServices.Speech": {
               "target": "Package",
               "version": "[1.33.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -73,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }

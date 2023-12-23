@@ -11,6 +11,7 @@ using static System.Net.Mime.MediaTypeNames;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 using Speech.Demo;
+using static Speech.Demo.IntentResponseController;
 //using Azure.Identity;
 
 // This example requires environment variables named "COGNITIVE_SERVICE_KEY " and "SPEECH_REGION"
@@ -83,11 +84,17 @@ async Task OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecogniti
                 switch (conversationPrediction.GetProperty("topIntent").GetString())
                 {
                     case "HorarioAtual":
+                        IntentResponse intentResponse = GetAResponse(conversationPrediction.GetProperty("topIntent").GetString()!);
 
+                        voice_speech = intentResponse.Phrase;
+                        Console.WriteLine(intentResponse.Phrase);
+
+                        /*
                         // Get text from the console and synthesize to the default speaker.
                         voice_speech = $"Agora são {DateTime.Now.ToShortTimeString()}";
 
                         Console.WriteLine(DateTime.Now.ToShortTimeString());
+                        */
                         break;
                     case "Pesquisa":
                         // Pesquisa no ChatGpt
@@ -99,7 +106,7 @@ async Task OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecogniti
                         Console.WriteLine(requestResponse);
                         voice_speech = "FOI";*/
 
-                        var openAIApiClient = new OpenAIApiClient("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");
+                        var openAIApiClient = new OpenAIApiClient("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");
                         var requestResponse = await openAIApiClient.SendPrompt(textoSemJarvis, "gpt-3.5-turbo");
                         Console.WriteLine("Resposta: " + requestResponse);
                         voice_speech = requestResponse;
@@ -115,10 +122,16 @@ async Task OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecogniti
                         Console.WriteLine(requestResponse);
                         voice_speech = "FOI";*/
 
-                        openAIApiClient = new OpenAIApiClient("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");
+                        openAIApiClient = new OpenAIApiClient("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");
                         requestResponse = await openAIApiClient.SendPrompt(textoSemJarvis, "gpt-3.5-turbo");
-                        Console.WriteLine("Resposta: " +  requestResponse);
+                        Console.WriteLine("Resposta: " + requestResponse);
                         voice_speech = requestResponse;
+                        break;
+                    case "Saudacoes":
+                        // Get text from the console and synthesize to the default speaker.
+                        voice_speech = $"Olá, como vai?";
+                        Console.WriteLine("Olá, como vai?");
+
                         break;
                     default:
                         voice_speech = $"Houve algúm erro!";
@@ -142,6 +155,7 @@ async Task OutputSpeechRecognitionResult(SpeechRecognitionResult speechRecogniti
             }
             break;
     }
+    Console.Clear();
 }
 
 
@@ -175,7 +189,7 @@ do
     // Informa ao sistema que o Jarvis já foi acionado dentro de um intervalo especificado pelo dev em outra parte do código
     jarvisJaFoiAcionado = true;
 
-    Console.WriteLine("FUNCIONOU!!!");
+    Console.Clear();
     Console.WriteLine("Texto captado: " + speechRecognitionResult.Text);
     recognizedText = speechRecognitionResult.Text;
 
@@ -203,7 +217,7 @@ do
     // Se apenas chamar o sistema(Jarvis), pedirá o comando
     if (textoTratado == "jarvis")
     {
-        //Console.Clear();
+        Console.Clear();
         Console.WriteLine("Pois não!");
         speechRecognitionResult = await speechRecognizer.RecognizeOnceAsync();
         //Console.Clear();
@@ -212,7 +226,8 @@ do
     } // Se chamar o sistema(Jarvis), já com o comando, não pedirá o comando
     else if (speechRecognitionResult.Text.Contains("Jarvis") || speechRecognitionResult.Text.Contains("jarvis") || jarvisJaFoiAcionado)
     {
-        Console.WriteLine("Processando informação!");
+        Console.Clear();
+        Console.WriteLine("Processando informação...");
         await OutputSpeechRecognitionResult(speechRecognitionResult, speechConfig);
     }
 

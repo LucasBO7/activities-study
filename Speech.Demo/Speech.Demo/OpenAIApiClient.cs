@@ -31,6 +31,7 @@ namespace Speech.Demo
             public string model { get; set; }
             public List<Choice> choices { get; set; }
             public Usage usage { get; set; }
+            public string system_fingerprint { get; set; }
         }
 
         public class Usage
@@ -42,8 +43,9 @@ namespace Speech.Demo
 
         public class Choice
         {
-            public string text { get; set; }
             public int index { get; set; }
+            public Message Message { get; set; }
+            //public string text { get; set; }
             public string logprobs { get; set; }
             public string finish_reason { get; set; }
         }
@@ -59,8 +61,8 @@ namespace Speech.Demo
         {
             public string model { get; set; }
             public Message[] messages { get; set; } = new Message[2];
-            public int temperature { get; set; }
-            public int max_tokens { get; set; }
+            //public int temperature { get; set; }
+            //public int max_tokens { get; set; }
         }
 
 
@@ -99,16 +101,16 @@ namespace Speech.Demo
                 max_tokens = 150,
             };*/
 
+            Message[] messagesArray = new Message[]
+            {
+                new(){ role = "system", content= "Mensagem inicial padrão do sistema" },
+                new(){ role = "user", content= _prompt }
+            };
+
             RequestBody requestBody = new()
             {
-                model = _model,
-                temperature = 1,
-                max_tokens = 150,
-            };
-            requestBody.messages[1] = new Message
-            {
-                role = "user",
-                content = _prompt
+                messages = messagesArray,
+                model = _model
             };
 
             var json = JsonConvert.SerializeObject(requestBody);
@@ -116,9 +118,9 @@ namespace Speech.Demo
             var httpResponse = await _httpClient.PostAsync(_httpClient.BaseAddress, new StringContent(json, Encoding.UTF8, "application/json"));
             var requestStringResponse = await httpResponse.Content.ReadAsStringAsync();
 
-            var response = JsonConvert.DeserializeObject<dynamic>(requestStringResponse);
-            Console.WriteLine("Retorno aí: " + response);
-            return requestStringResponse;
+            var response = JsonConvert.DeserializeObject<GptRequest>(requestStringResponse);
+            //Console.WriteLine("Retorno aí: " + response.choices[0].Message.content);
+            return response.choices[0].Message.content;
         }
     }
 }
