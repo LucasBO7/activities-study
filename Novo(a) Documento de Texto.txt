@@ -1,0 +1,22 @@
+Sistema de gerenciamento do Google Calendar por voz/chat.
+
+Então por simples comandos, consigo realizar a alteração do meu calendário ou buscar informações a respeito dele de forma simples por interação de voz.
+
+
+INSTALAR
+- dotnet add package Catalyst --version 1.0.48839
+- Lista por idioma: https://www.nuget.org/packages?q=catalyst.models
+
+
+
+https://www.youtube.com/results?search_query=So+low
+
+        src=@(
+Model != null && Model.YoutubeUri != ""
+? Model.YoutubeUri
+: "http://www.youtube.com/embed/fxCEcPxUbYA";
+)
+
+
+
+0<video src="blob:https://www.netflix.com/ad1fa928-a6bc-490b-954b-b2a739b28d1d" tabindex="-1" style="height: 100%; width: 479px;"></video>
