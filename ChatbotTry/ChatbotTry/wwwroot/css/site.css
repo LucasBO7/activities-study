@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.view-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 500px;
+}
+
+.input-txt {
+  width: 300px;
+  height: 35px;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color:#d4d4d4;
+}
+
+p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.bot-response {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 15px;
+  color: rgba(6,6,78,1);
+}
+
+/* EFEITOS CÍRCULO JARVIS */
+.main-circle{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 6px solid purple;
+}
+
+.small-circle-border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 375px;
+  height: 375px;
+  border-radius: 50%;
+
+  animation: girar 5s linear infinite;
+  
+/* background: linear-gradient(273deg, rgba(6,6,78,1) 0%, rgba(6,6,78,1) 20%, rgba(255,255,255,1) 100%); */
+
+/* background: linear-gradient(273deg, rgba(6,6,78,1) 0%, rgba(6,6,78,1) 9%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 100%); */
+
+background: linear-gradient(273deg, rgba(6,6,78,1) 0%, rgba(6,6,78,1) 7%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 100%);
+}
+
+.small-circle-content{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.returns-texts{
+  position: absolute;
+  top: 30%;
+  z-index: 1000;
+  width: 300px;
+}

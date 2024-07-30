@@ -1,0 +1,107 @@
+﻿@using OpenQA.Selenium
+@using OpenQA.Selenium.Chrome
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    @* Abrir site *@
+    <input type="text" id="website-name-input" required placeholder="Nome do site..." />
+    <button type="button" id="website-name-button" onclick="openWebsite()">Enviar</button>
+
+    @* Pressionar botão *@
+    <input type="text" id="searching-button-to-press" required placeholder="Texto do botão a ser pressionado..." />
+    <button type="button" id="send-button-to-press" onclick="pressButton()">Enviar</button>
+
+    @* Preencher input *@
+    <input type="text" id="input-searching-text" required placeholder="Input a ser inserido..." />
+    <input type="text" id="input-new-value" required placeholder="Novo valor do input..." />
+    <button type="button" id="insert-button" onclick="">Enviar</button>
+
+    @* Fechar navegador/driver *@
+    <button type="button" onclick="quitSession()">Sair</button>
+
+
+
+
+
+    @* Código exemplo *@
+    <button type="button" id="btn-test" onclick="btnClick()">Testar</button>
+    <p id="label-tst">Banana</p>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        function openWebsite() {
+            var inputValue = $("#website-name-input").val();
+            alert(`Iniciado processo! ${inputValue}`);
+            $.ajax({
+                type: "POST",
+                data: {
+                    websiteName: inputValue
+                },
+                url: "/Home/OpenWebsiteRequest",
+                dataType: "json",
+            }).done(function () {
+                alert("Site aberto com sucesso!");
+            })
+        }
+
+        function pressButton(){
+            const searchingBtnText = $("#searching-button-to-press").val();
+            alert(`Começando... ${searchingBtnText}`)
+            $.ajax({
+                type: "POST",
+                data: {
+                    buttonText: searchingBtnText
+                },
+                url: "/Home/PressButton"
+            }).done(function () {
+                alert("Feito!");
+            })
+        }
+
+        function FillInput() {
+            $.ajax({
+                type: "POST",
+                data: {
+                    websiteName: inputValue
+                },
+                url: "/Home/OpenWebsiteRequest",
+                dataType: "json",
+            }).done(function () {
+                alert("Site aberto com sucesso!");
+            })
+        }
+
+
+        function quitSession() {
+            $.ajax({
+                type: "POST",
+                url: "/Home/QuitSession"
+            }).done(function () {
+                alert("Site encerrado!");
+            })
+        }
+
+
+
+        function getDados() {
+            $.ajax({
+                // Tipo da requisição
+                type: "GET",
+                // URL para o método
+                url: "/Home/GetDados",
+                // Tipo do retorno esperado
+                dataType: "json"
+            }).done(function (result) {
+                alert(result);
+            })
+        }
+    </script>
+}
