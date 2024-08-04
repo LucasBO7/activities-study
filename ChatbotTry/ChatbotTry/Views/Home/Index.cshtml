@@ -1,24 +1,21 @@
-﻿@model ChatbotTry.ViewModels.ChatViewModel
+﻿@* @model ChatbotTry.ViewModels.ChatViewModel *@
 
 <div class="text-center">
     <div class="view-container">
 
         <div class="main-circle">
             <div class="returns-texts">
-                @if (Model != null)
-                {
-                    <p class="bot-response">@Model.BotResponse</p>
-                    <p>Link: @Model.YoutubeUri</p>
-                }
+                <p class="bot-response" id="bot-response-text">A</p>
+                <p id="yt-media-link">Link: </p>
             </div>
 
             <div class="small-circle-border">
                 <div class="small-circle-content"></div>
             </div>
-            @* <div class="medium-circle-border">
-            <div class="medium-circle-content">
+            <div class="medium-circle-border">
+                <div class="medium-circle-content">
+                </div>
             </div>
-            </div> *@
         </div>
 
         <h1 class="title">Jarvis</h1>
@@ -28,6 +25,7 @@
                id="user-message-input"
                required
                placeholder="Insira a mensagem ao Jarvis..." />
+
         <button type="button"
                 id="user-message-send-button"
                 onclick="sendMessageToJarvis()">
@@ -44,20 +42,40 @@
 
 
 
-    <iframe width="600" height="350"
-            src="@(Model != null && Model.YoutubeUri != null ? @Model.YoutubeUri : "http://www.youtube.com/embed/fxCEcPxUbYA")"
+    <iframe id="video-player" width="600" height="350"
             frameborder="0" allowfullscreen></iframe>
 
 </div>
 
 @section Scripts {
     <script type="text/javascript">
+
         function sendMessageToJarvis() {
+            const userMessageInput = $("#user-message-input").val();
+
             $.ajax({
                 type: "POST",
-                url: @Url.Action("Salvar"),
+                url: "/Home/Salvar",
+                dataType: "json",
+                data: {
+                    message_user: userMessageInput
+                }
             }).done(function (chatViewModel) {
-                alert("Response: " + chatViewModel.BotResponse + " YT Uri: " + chatViewModel.YoutubeUri);
+                const botResponse = $("#bot-response-text");
+                const ytUri = $("#yt-media-link");
+
+                if (chatViewModel.botResponse != null) {
+                    botResponse.text(chatViewModel.botResponse);
+
+                    if (chatViewModel.youtubeUri != null) {
+                        ytUri.text(`Link: ${chatViewModel.youtubeUri}`);
+
+                        const ytFrameElement = $("#video-player");
+                        ytFrameElement.attr("src", chatViewModel.youtubeUri);
+                    }
+                }
+                console.log(chatViewModel);
+                console.log(chatViewModel.BotResponse);
             })
         }
 

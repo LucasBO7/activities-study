@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\",
+  "WorkspaceRootPath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\browserautomation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\browserautomation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\browserautomation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\browserautomation\\models\\genericwebmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7548A027-4D93-4E69-8F71-8BFAAFE6DA54}|BrowserAutomation.csproj|solutionrelative:models\\genericwebmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +26,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T17:40:35.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericWebMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Models\\GenericWebMethods.cs",
+              "RelativeDocumentMoniker": "Models\\GenericWebMethods.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Models\\GenericWebMethods.cs",
+              "RelativeToolTip": "Models\\GenericWebMethods.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIAwwDMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:58:22.099Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAjAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAFQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T14:25:51.658Z",
+              "WhenOpened": "2024-07-31T14:51:02.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T14:25:37.081Z",
+              "WhenOpened": "2024-07-31T14:46:07.247Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

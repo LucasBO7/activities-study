@@ -16,23 +16,44 @@ public class HomeController(ILogger<HomeController> logger) : Controller
     }
 
     [HttpPost]
-    public void OpenWebsiteRequest(string websiteName)
+    public JsonResult OpenWebsiteRequest(string websiteName)
     {
         // Gets the existent WebDriver instance
         var _webDriver = WebDriverManager.Instance;
-        GenericWebMethods.OpenWebsite(_webDriver, websiteName);
+        bool wasWebsiteOpenedSuccessfuly = GenericWebMethods.OpenWebsite(_webDriver, websiteName);
+
+        if (wasWebsiteOpenedSuccessfuly)
+            return Json($"Site {websiteName} aberto! ");
+        else
+            return Json($"Não foi possível acessar o site solicitado, verifique o nome inserido: {websiteName}");
     }
 
     [HttpPost]
-    public void PressButton(string buttonText){
+    public JsonResult PressButton(string buttonText)
+    {
         var _webDriver = WebDriverManager.Instance;
-        GenericWebMethods.ClickButton(_webDriver, buttonText);
+        int wasBtnClickedSuccessfuly = GenericWebMethods.ClickButton(_webDriver, buttonText);
+
+        // Status ação
+        if (wasBtnClickedSuccessfuly == 1)
+            return Json("Botão normal clicado!");
+        else if (wasBtnClickedSuccessfuly == 2)
+            return Json("Botão span clicado!");
+        else
+            return Json("Houve algum erro!");
     }
 
 
+    [HttpPost]
+    public JsonResult InsertInputValue(string searchingInput, string newInputValueInserted)
+    {
+        var _webDriver = WebDriverManager.Instance;
+        bool wasInputInsertedSuccessfuly = GenericWebMethods.InsertInputValue(_webDriver, searchingInput, newInputValueInserted);
 
-    public void InsertInputValue(string searchingInput, string newInputValue){
-        
+        if (wasInputInsertedSuccessfuly)
+            return Json($"Texto inserido com sucesso!: {newInputValueInserted}");
+        else
+            return Json($"Não foi possível inserir o valor no input desejado! Verifique a identificação do input passado!");
     }
 
 
@@ -45,7 +66,6 @@ public class HomeController(ILogger<HomeController> logger) : Controller
         // Gets the existent WebDriver instance
         var _webDriver = WebDriverManager.Instance;
         _webDriver.Close();
-
         // Environment.Exit(0);
     }
 

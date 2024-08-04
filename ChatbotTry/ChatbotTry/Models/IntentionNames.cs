@@ -6,6 +6,7 @@
         Saudacao = 1,
         Despedida = 2,
         Horario = 3,
-        Youtube = 4
+        Data = 4,
+        Youtube = 5
     }
 }

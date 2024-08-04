@@ -15,7 +15,7 @@ namespace ChatbotTry.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        
+
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -63,6 +63,14 @@ namespace ChatbotTry.Controllers
             "que horas e agora"
         };
 
+        // Palavras que indicam o pedido da data atual
+        string[] dataAtual =
+        {
+            "dia atual",
+            "dia e hoje",
+            "data atual"
+        };
+
         string[] playYoutubeVideo =
         {
             "quero ouvir",
@@ -75,7 +83,7 @@ namespace ChatbotTry.Controllers
         // Palavras usadas para identificar perguntas
         string[] askingCommandWords =
         {
-            "mede",
+            "me de",
             "me diga",
             "me fale",
             "me passe",
@@ -99,15 +107,15 @@ namespace ChatbotTry.Controllers
         };
 
 
-
-        public async Task<ChatViewModel> Salvar(IFormCollection form)
+        [HttpPost]
+        public async Task<JsonResult> Salvar(string message_user)
         {
             string botReturn;
 
             ChatViewModel chatViewModel = new();
 
             #region Message_Formatation
-            string message_user = form["UserMessage"].ToString();
+            //string message_user = form["UserMessage"].ToString();
             // Texto em minusculo
             string formattedMessage_user = message_user.ToLower();
             // Retira acentos
@@ -127,6 +135,9 @@ namespace ChatbotTry.Controllers
 
             // Horário
             Intention.CreateNewIntention(intentionList, IntentionNames.Horario, horarioAtual, askingCommandWords, formattedMessage_user, $"Agora são {DateTime.Now.ToLongTimeString()}");
+
+            // Data
+            Intention.CreateNewIntention(intentionList, IntentionNames.Data, dataAtual, askingCommandWords, formattedMessage_user, $"Hoje é {DateTime.Now.ToLongDateString()}");
 
             // Video YouTube
             Intention.CreateNewIntention(intentionList, IntentionNames.Youtube, playYoutubeVideo, actionCommandWords, formattedMessage_user, $"Rodando vídeo do Youtube...", YouTube.RunVideoByName);
@@ -154,7 +165,7 @@ namespace ChatbotTry.Controllers
 
             intentionList.Clear();
 
-            return chatViewModel;
+            return Json(chatViewModel);
 
             //return View("Index", chatViewModel);
         }

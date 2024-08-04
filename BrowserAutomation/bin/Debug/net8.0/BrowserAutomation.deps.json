@@ -9,7 +9,7 @@
       "BrowserAutomation/1.0.0": {
         "dependencies": {
           "Selenium.WebDriver": "4.23.0",
-          "Selenium.WebDriver.ChromeDriver": "126.0.6478.18200"
+          "Selenium.WebDriver.ChromeDriver": "127.0.6533.8800"
         },
         "runtime": {
           "BrowserAutomation.dll": {}
@@ -34,7 +34,7 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/126.0.6478.18200": {}
+      "Selenium.WebDriver.ChromeDriver/127.0.6533.8800": {}
     }
   },
   "libraries": {
@@ -57,12 +57,12 @@
       "path": "selenium.webdriver/4.23.0",
       "hashPath": "selenium.webdriver.4.23.0.nupkg.sha512"
     },
-    "Selenium.WebDriver.ChromeDriver/126.0.6478.18200": {
+    "Selenium.WebDriver.ChromeDriver/127.0.6533.8800": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BIp1ykkondFhOpujffGRthlIcVCrBtQLSu/ZxxjDmrYYBcZu6WHtwhsJ6JhP/awys1AWk/BBV4wNbh1ID7Sq6Q==",
-      "path": "selenium.webdriver.chromedriver/126.0.6478.18200",
-      "hashPath": "selenium.webdriver.chromedriver.126.0.6478.18200.nupkg.sha512"
+      "sha512": "sha512-owJRhq3twE/5Z7PztbctWR6CJCZ31zaTUCztyWPDFM5irS9mcr2O3odXk6WBaN3ts26Vwll56joDMJo+foEzIg==",
+      "path": "selenium.webdriver.chromedriver/127.0.6533.8800",
+      "hashPath": "selenium.webdriver.chromedriver.127.0.6533.8800.nupkg.sha512"
     }
   }
 }

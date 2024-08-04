@@ -34,7 +34,7 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/126.0.6478.18200": {
+      "Selenium.WebDriver.ChromeDriver/127.0.6533.8800": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -90,10 +90,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/126.0.6478.18200": {
-      "sha512": "BIp1ykkondFhOpujffGRthlIcVCrBtQLSu/ZxxjDmrYYBcZu6WHtwhsJ6JhP/awys1AWk/BBV4wNbh1ID7Sq6Q==",
+    "Selenium.WebDriver.ChromeDriver/127.0.6533.8800": {
+      "sha512": "owJRhq3twE/5Z7PztbctWR6CJCZ31zaTUCztyWPDFM5irS9mcr2O3odXk6WBaN3ts26Vwll56joDMJo+foEzIg==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/126.0.6478.18200",
+      "path": "selenium.webdriver.chromedriver/127.0.6533.8800",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -110,7 +110,7 @@
         "driver/win32/LICENSE.chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.126.0.6478.18200.nupkg.sha512",
+        "selenium.webdriver.chromedriver.127.0.6533.8800.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     }
@@ -118,23 +118,28 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Selenium.WebDriver >= 4.23.0",
-      "Selenium.WebDriver.ChromeDriver >= 126.0.6478.18200"
+      "Selenium.WebDriver.ChromeDriver >= 127.0.6533.8800"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cleb_\\.nuget\\packages\\": {}
+    "C:\\Users\\Batata Voadora\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\BrowserAutomation.csproj",
+      "projectUniqueName": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\BrowserAutomation.csproj",
       "projectName": "BrowserAutomation",
-      "projectPath": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\BrowserAutomation.csproj",
-      "packagesPath": "C:\\Users\\cleb_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cleb_\\Desktop\\BrowserAutomation\\obj\\",
+      "projectPath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\BrowserAutomation.csproj",
+      "packagesPath": "C:\\Users\\Batata Voadora\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\BrowserAutomation\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\cleb_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Batata Voadora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -172,7 +177,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[126.0.6478.18200, )"
+            "version": "[127.0.6533.8800, )"
           }
         },
         "imports": [
@@ -194,7 +199,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

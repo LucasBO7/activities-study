@@ -1,13 +1,10 @@
 ﻿@using OpenQA.Selenium
 @using OpenQA.Selenium.Chrome
 
-@{
-    ViewData["Title"] = "Home Page";
-}
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Jarvis</h1>
+    <p>Olá Lucas...</p>
 
 
     @* Abrir site *@
@@ -21,7 +18,10 @@
     @* Preencher input *@
     <input type="text" id="input-searching-text" required placeholder="Input a ser inserido..." />
     <input type="text" id="input-new-value" required placeholder="Novo valor do input..." />
-    <button type="button" id="insert-button" onclick="">Enviar</button>
+    <button type="button" id="insert-button" onclick="fillInput()">Enviar</button>
+
+    @* Status *@
+    <p id="jarvis-status"></p>
 
     @* Fechar navegador/driver *@
     <button type="button" onclick="quitSession()">Sair</button>
@@ -37,9 +37,20 @@
 
 @section Scripts {
     <script type="text/javascript">
+
+        // Abre o site pelo nome dele inserido
         function openWebsite() {
+            // Desativa botão
+            var button = $("#website-name-button");
+            button.prop("disabled", true); // Desabilita o botão
+
+            // Pega o valor do input
             var inputValue = $("#website-name-input").val();
-            alert(`Iniciado processo! ${inputValue}`);
+
+            // Atualiza o status do Jarvis
+            var jarvisStatus = $("#jarvis-status");
+            jarvisStatus.text(`Entrando no site ${inputValue}...`);
+
             $.ajax({
                 type: "POST",
                 data: {
@@ -47,45 +58,88 @@
                 },
                 url: "/Home/OpenWebsiteRequest",
                 dataType: "json",
-            }).done(function () {
-                alert("Site aberto com sucesso!");
-            })
+            }).done(function (returnMessage) {
+                jarvisStatus.text(returnMessage);
+            }).fail(function () {
+                jarvisStatus.text(`Houve um erro com a requisição realizada!: ${textStatus}   ${errorThrown}`);
+                console.log("Erro: ", textStatus, errorThrown); // Verifica o erro
+            }).always(function () {
+                button.prop("disabled", false); // Reabilita o botão após a conclusão da requisição
+            });
         }
 
-        function pressButton(){
+        function pressButton() {
+            // Desativa botão
+            var button = $("#send-button-to-press");
+            button.prop("disabled", true); // Desabilita o botão
+
+            // Pega o valor do input
             const searchingBtnText = $("#searching-button-to-press").val();
-            alert(`Começando... ${searchingBtnText}`)
+
+            // Atualiza o status do Jarvis
+            var jarvisStatus = $("#jarvis-status");
+            jarvisStatus.text(`Clicando... ${searchingBtnText}`);
+
             $.ajax({
                 type: "POST",
                 data: {
                     buttonText: searchingBtnText
                 },
-                url: "/Home/PressButton"
-            }).done(function () {
-                alert("Feito!");
-            })
+                url: "/Home/PressButton",
+                dataType: "json",
+            }).done(function (returnMessage) {
+                jarvisStatus.text(returnMessage);
+            }).fail(function () {
+                jarvisStatus.text(`Houve um erro com a requisição realizada!: ${textStatus}   ${errorThrown}`);
+            }).always(function () {
+                button.prop("disabled", false); // Reabilita o botão após a conclusão da requisição
+            });
         }
 
-        function FillInput() {
+        function fillInput() {
+            // Desativa botão
+            var button = $("#insert-button");
+            button.prop("disabled", true); // Desabilita o botão
+
+            // Pega o valor dos inputs
+            const searchingInputText = $("#input-searching-text").val();
+            const newInputValue = $("#input-new-value").val();
+
+            // Atualiza o status do Jarvis
+            var jarvisStatus = $("#jarvis-status");
+            jarvisStatus.text(`Inserindo '${inputValue}' em ${searchingInputText}...`);
             $.ajax({
                 type: "POST",
                 data: {
-                    websiteName: inputValue
+                    searchingInput: searchingInputText,
+                    newInputValueInserted: newInputValue
                 },
-                url: "/Home/OpenWebsiteRequest",
+                url: "/Home/InsertInputValue",
                 dataType: "json",
-            }).done(function () {
-                alert("Site aberto com sucesso!");
-            })
+            }).done(function (returnMessage) {
+                jarvisStatus.text(returnMessage);
+            }).fail(function (jqXHR, textStatus, errorThrown) {
+                jarvisStatus.text(`Houve um erro com a requisição realizada!: ${textStatus}   ${errorThrown}`);
+                console.log("Erro: ", textStatus, errorThrown); // Verifica o erro
+            }).always(function () {
+                button.prop("disabled", false); // Reabilita o botão após a conclusão da requisição
+            });
         }
 
 
         function quitSession() {
+            // Atualiza o status do Jarvis
+            var jarvisStatus = $("#jarvis-status");
+
             $.ajax({
                 type: "POST",
                 url: "/Home/QuitSession"
             }).done(function () {
+                jarvisStatus.text("Site fechado!");
                 alert("Site encerrado!");
+            }).fail(function () {
+                alert("Houve um erro com a requisição realizada!");
+                jarvisStatus.text("Houve um erro com a requisição realizada!");
             })
         }
 
