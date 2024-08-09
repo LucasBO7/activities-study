@@ -1,23 +1,35 @@
 ﻿using OpenQA.Selenium;
+using System.Text.RegularExpressions;
 
 namespace ChatbotTry.Models
 {
-    public class GenericWebMethods
+    public static class GenericWebMethods
     {
-        public static string OpenWebsite(IWebDriver _webDriver, string websiteName)
-        {
-            // Formata em um url
-            string websiteUrl = $"https://www.{websiteName}.com";
-
-            // Navega para a url
-            _webDriver.Navigate().GoToUrl(websiteUrl);
-            return websiteUrl;
-        }
-
-        public static void ClickButton(IWebDriver _webDriver, string buttonContent)
+        public static string OpenWebsite(string websiteName)
         {
             try
             {
+                var _webDriver = WebDriverManager.Instance;
+
+                // Formata em um url
+                string websiteUrl = $"https://www.{websiteName}.com";
+
+                // Navega para a url
+                _webDriver.Navigate().GoToUrl(websiteUrl);
+                return websiteUrl;
+            }
+            catch (Exception exc)
+            {
+                return null;
+            }
+        }
+
+        public static string ClickButton(string buttonContent)
+        {
+            var _webDriver = WebDriverManager.Instance;
+            try
+            {
+
                 // Busca um elemento A ou BUTTON por seu conteúdo
                 IWebElement element = _webDriver.FindElement(
                     By.XPath(
@@ -25,19 +37,31 @@ namespace ChatbotTry.Models
                     )
                 );
                 element.Click();
+
+                return element.Text;
+
+                //Console.Beep(500, 500);
             }
-            catch (NoSuchElementException)
+            catch (NoSuchElementException exc)
             {
-                ClickButtonBySpan(_webDriver, buttonContent);
+                Console.WriteLine("Erro: " + exc.Message);
+                //Console.Beep(800, 1500);
+                return ClickButtonBySpan(_webDriver, buttonContent);
             }
         }
 
-        public static void ClickButtonBySpan(IWebDriver _webDriver, string clickedBtnContent)
+        /// <summary>
+        /// Busca a lista de todos spans, pega seu index pelo texto(conteúdo) e clica-o
+        /// </summary>
+        /// <param name="_webDriver">Objeto WebDriver</param>
+        /// <param name="clickedBtnContent">Texto do botão pesquisado a ser clicado</param>
+        public static string ClickButtonBySpan(IWebDriver _webDriver, string clickedBtnContent)
         {
-            // Busca um elemento span que contenha texto
-            List<IWebElement> elements = _webDriver.FindElements(
-                By.TagName("span")
-            ).Where(e => !string.IsNullOrWhiteSpace(e.Text)).ToList();
+            // Busca os elementos span que contenham o texto
+            List<IWebElement> elements = _webDriver
+                .FindElements(By.TagName("span"))
+                .Where(e => !string.IsNullOrWhiteSpace(e.Text))
+                .ToList();
 
             // for (int i = 0; i < elements.Count; i++)
             // {
@@ -45,127 +69,128 @@ namespace ChatbotTry.Models
             // }
 
             int indexOfClickedBtn;
-            do
+
+            // Busca index do botão selecionado
+            indexOfClickedBtn = GetElementIndex(elements, clickedBtnContent);
+
+            // Se o botão span não foi encontrado
+            if (indexOfClickedBtn == -1)
             {
-                // Busca index do botão selecionado
-                indexOfClickedBtn = GetElementIndex(elements, clickedBtnContent);
-
-                // Verificação
-                if (indexOfClickedBtn == -1)
-                {
-                    Console.BackgroundColor = ConsoleColor.Red;
-                    Console.WriteLine("ERRO! Insira algum texto que exista dentre as opções possíveis!");
-                    Console.ResetColor();
-                    Console.WriteLine();
-
-                    Console.Write("Insira o botão que deseja clicar: ");
-                    clickedBtnContent = Console.ReadLine()!;
-                }
-            } while (indexOfClickedBtn == -1);
-
-            // Clica no botão associado ao span
-            elements[indexOfClickedBtn].Click();
-        }
-
-        public static void InsertInputValueInForm(IWebDriver _webDriver)
-        {
-            IWebElement form = _webDriver.FindElement(By.TagName("form"));
-            // Console.WriteLine(form.Text);
-
-            int inputsCount = form.FindElements(By.TagName("input")).Count;
-            List<IWebElement> inputs = [];
-            List<IWebElement> span = [];
-
-            for (int i = 0; i < inputsCount; i++)
-            {
-                inputs.Add(form.FindElements(By.TagName("input"))[i]);
-                span.Add(form.FindElements(By.TagName("label"))[i]);
+                // Mensagem de erro
+                Console.WriteLine(
+                    "ERRO! Insira algum texto que exista dentre as opções possíveis!"
+                );
+                //Console.Beep(800, 1500);
+                return null;
             }
-
-            Console.WriteLine("_____SPANs LIST______");
-            for (int x = 0; x < span.Count; x++)
+            else
             {
-                Console.WriteLine(span[x].Text);
-                inputs[x].SendKeys(Console.ReadLine());
+                // Clica no botão associado ao span
+                elements[indexOfClickedBtn].Click();
+                return elements[indexOfClickedBtn].Text;
             }
         }
 
-        public static void InsertInputValue(IWebDriver _webDriver)
+        public static int GetElementIndex(List<IWebElement> elements, string searchingText)
         {
+            return elements.FindIndex(
+                0,
+                elements.Count,
+                e => e.Text.Contains(searchingText, StringComparison.CurrentCultureIgnoreCase)
+            );
+        }
+
+        public static bool InsertInputValue(string selectedOptionByName, string newInputValue)
+        {
+            var _webDriver = WebDriverManager.Instance;
+
+
             // Quantidade de inputs na página
             int inputsCount = _webDriver.FindElements(By.TagName("input")).Count;
             // Inicialização das listas de inputs e spans
             List<IWebElement> inputs = [];
-            List<IWebElement> span = [];
+            List<IWebElement> labels = [];
 
             // Atribuição dos elementos às listas
             for (int i = 0; i < inputsCount; i++)
             {
                 inputs.Add(_webDriver.FindElements(By.TagName("input"))[i]);
-                span.Add(_webDriver.FindElements(By.TagName("label"))[i]);
+                labels.Add(_webDriver.FindElements(By.TagName("label"))[i]);
             }
 
-            string selectedOptionByName;
-            do
+            // Imprime os inputs da página juntamente ao seu label e valor
+            Console.WriteLine("___________________________________");
+            for (int item = 0; item < inputs.Count; item++)
             {
-                Console.Clear();
-                // Imprime os inputs da página juntamente ao seu span e valor
-                Console.WriteLine("___________________________________");
-                for (int item = 0; item < inputs.Count; item++)
-                {
-                    // Exemplo
-                    // Email: valor
-                    Console.WriteLine($"{span[item].Text}: {inputs[item].GetAttribute("value")}");
-                }
-                Console.WriteLine("___________________________________");
+                // Exemplo
+                // email: valor
+                Console.WriteLine($"{labels[item].Text}: {inputs[item].GetAttribute("value")}");
+            }
+            Console.WriteLine("___________________________________");
 
-                int spanIndexSearched;
-                // Busca input por nome
-                do
-                {
-                    // Pega o nome do input que deseja inserir o valor
-                    Console.Write("Insira qual input deseja preencher: ");
-                    selectedOptionByName = Console.ReadLine()!.ToLower();
+            // Busca o valor que contiver o texto escrito no input selectedOptionByName ignorando o CASE
+            int labelIndexSearched = GetElementIndex(labels, selectedOptionByName);
 
-                    // Busca o valor que contiver o texto escrito no input anterior ignorando o CASE
-                    // spanIndexSearched = span.FindIndex(0, span.Count, s => s.Text.Contains(selectedOptionByName, StringComparison.CurrentCultureIgnoreCase));
-                    spanIndexSearched = GetElementIndex(span, selectedOptionByName);
+            // Se não encontrar o input/label, pede um novo valor, no caso do web, deve retornar false para receber um novo valor
+            if (labelIndexSearched == -1)
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.WriteLine("ERRO! Insira algum texto que exista dentre as opções possíveis!");
+                Console.ResetColor();
+                Console.WriteLine();
+                return false;
+            }
 
-                    if (spanIndexSearched == -1 && selectedOptionByName != "jarvissair")
-                    {
-                        Console.BackgroundColor = ConsoleColor.Red;
-                        Console.WriteLine("ERRO! Insira algum texto que exista dentre as opções possíveis!");
-                        Console.ResetColor();
-                        Console.WriteLine();
-                    }
-                } while (spanIndexSearched == -1 && selectedOptionByName != "jarvissair");
-                Console.Clear();
+            inputs[labelIndexSearched].Clear(); // Limpa o antigo valor do input (se houver)
 
-                if (selectedOptionByName != "jarvissair")
-                {
-                    // Insere o valor
-                    inputs[spanIndexSearched].Clear(); // Limpa o valor anterior
-                    Console.Write($"{span[spanIndexSearched].Text}: ");
-                    inputs[spanIndexSearched].SendKeys(Console.ReadLine());
-                }
-            } while (selectedOptionByName != "jarvissair");
+            inputs[labelIndexSearched].SendKeys(newInputValue); // Envia o novo valor ao input
+            return true;
         }
 
-        public static int GetElementIndex(List<IWebElement> elements, string searchingText)
+        public static void ScrollWindow(string operationSign)
         {
-            return elements.FindIndex(0, elements.Count, e => e.Text.Contains(searchingText, StringComparison.CurrentCultureIgnoreCase));
-        }
+            var _webDriver = WebDriverManager.Instance;
 
-        public static void ScrollWindow(IWebDriver _webDriver, string value)
-        {
             IJavaScriptExecutor js = (IJavaScriptExecutor)_webDriver;
 
-            js.ExecuteScript($"window.scrollBy(0, {value}400)");
+            js.ExecuteScript($"window.scrollBy(0, {operationSign}400)");
         }
 
         public static void QuitSession(IWebDriver _webDriver)
         {
             _webDriver.Close();
+        }
+
+        // ATENÇÃO
+        // ATENÇÃO
+        // ATENÇÃO
+        // ATENÇÃO
+        // ATENÇÃO
+        // Depois alterar os métodos para ficarem genéricos[]
+
+        // Button content
+        public static string GetSiteSearchName(string userInput)
+        {
+            string pattern = @"\b(site do|pagina do|site|pagina)\b\s+(.*)";
+
+            Match match = Regex.Match(userInput, pattern, RegexOptions.IgnoreCase);
+
+            if (match.Success)
+                return match.Groups[2].Value;
+            else
+                return null;
+        }
+        // Butto content
+        public static string GetButtonName(string userInput)
+        {
+            string pattern = @"\b(botao|va em|entre em|vai em|clique em|clica em)\b\s+(.*)";
+
+            Match match = Regex.Match(userInput, pattern, RegexOptions.IgnoreCase);
+
+            if (match.Success)
+                return match.Groups[2].Value;
+            else
+                return null;
         }
     }
 }

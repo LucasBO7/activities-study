@@ -11,6 +11,7 @@ namespace ChatbotTry.Models
 
         // Propriedade referente à função genérica
         public CustomGenericFunction? CustomGenericFunction { get; set; } = null;
+        public CustomGenericFunctionAsync? CustomGenericFunctionAsync { get; set; } = null;
 
 
         public Intention(IntentionNames name, bool isThisIntention, List<string> possibleResponses)
@@ -33,6 +34,13 @@ namespace ChatbotTry.Models
             IsThis = isThisIntention;
             Response = response;
             CustomGenericFunction = customGenericFunction;
+        }
+        public Intention(IntentionNames name, bool isThisIntention, string response, CustomGenericFunctionAsync customGenericFunctionAsync)
+        {
+            Name = name;
+            IsThis = isThisIntention;
+            Response = response;
+            CustomGenericFunctionAsync = customGenericFunctionAsync;
         }
 
 
@@ -61,6 +69,38 @@ namespace ChatbotTry.Models
                 name: intentionType,
                 isThisIntention: wordsList.Any(w => userMessageFormated.Contains(w)) && sndWordsList.Any(w => userMessageFormated.Contains(w)),
                 response: response
+            ));
+        }
+        public static void CreateNewIntention(List<Intention> intentionsList, IntentionNames intentionType, IEnumerable<string> wordsList, string userMessageFormated, string response, CustomGenericFunctionAsync customGenericFunctionAsync)
+        {
+            intentionsList.Add(new Intention
+            (
+                name: intentionType,
+                isThisIntention: wordsList.Any(w => userMessageFormated.Contains(w)),
+                response: response,
+                customGenericFunctionAsync: customGenericFunctionAsync
+            ));
+        }
+
+        public static void CreateNewIntention(List<Intention> intentionsList, IntentionNames intentionType, IEnumerable<string> wordsList, string userMessageFormated, string response, CustomGenericFunction customGenericFunction)
+        {
+            intentionsList.Add(new Intention
+            (
+                name: intentionType,
+                isThisIntention: wordsList.Any(w => userMessageFormated.Contains(w)),
+                response: response,
+                customGenericFunction: customGenericFunction
+            ));
+        }
+
+        public static void CreateNewIntention(List<Intention> intentionsList, IntentionNames intentionType, IEnumerable<string> wordsList, IEnumerable<string> sndWordsList, string userMessageFormated, string response, CustomGenericFunctionAsync customGenericFunctionAsync)
+        {
+            intentionsList.Add(new Intention
+            (
+                name: intentionType,
+                isThisIntention: wordsList.Any(w => userMessageFormated.Contains(w)) && sndWordsList.Any(w => userMessageFormated.Contains(w)),
+                response: response,
+                customGenericFunctionAsync: customGenericFunctionAsync
             ));
         }
 

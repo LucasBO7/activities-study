@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\models\\method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\models\\method.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\models\\youtube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\models\\youtube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\models\\genericwebmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\models\\genericwebmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\models\\webdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|solutionrelative:chatbottry\\models\\webdrivermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CC140E4-50B0-495D-A191-7F09EC68B4DD}|ChatbotTry\\ChatbotTry.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\chatbottry\\chatbottry\\models\\intentionnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,38 +59,101 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Method.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\Method.cs",
+              "RelativeDocumentMoniker": "ChatbotTry\\Models\\Method.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\Method.cs",
+              "RelativeToolTip": "ChatbotTry\\Models\\Method.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T19:31:32.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebDriverManager.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\WebDriverManager.cs",
+              "RelativeDocumentMoniker": "ChatbotTry\\Models\\WebDriverManager.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\WebDriverManager.cs",
+              "RelativeToolTip": "ChatbotTry\\Models\\WebDriverManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T19:26:50.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\ViewModels\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "ChatbotTry\\ViewModels\\ChatViewModel.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\ViewModels\\ChatViewModel.cs",
+              "RelativeToolTip": "ChatbotTry\\ViewModels\\ChatViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T19:17:17.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "YouTube.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\YouTube.cs",
+              "RelativeDocumentMoniker": "ChatbotTry\\Models\\YouTube.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\YouTube.cs",
+              "RelativeToolTip": "ChatbotTry\\Models\\YouTube.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T19:05:55.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericWebMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\GenericWebMethods.cs",
+              "RelativeDocumentMoniker": "ChatbotTry\\Models\\GenericWebMethods.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\GenericWebMethods.cs",
+              "RelativeToolTip": "ChatbotTry\\Models\\GenericWebMethods.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:45:11.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IntentionNames.cs",
               "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\IntentionNames.cs",
               "RelativeDocumentMoniker": "ChatbotTry\\Models\\IntentionNames.cs",
               "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Models\\IntentionNames.cs",
               "RelativeToolTip": "ChatbotTry\\Models\\IntentionNames.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T18:20:59.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T18:20:59.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ChatbotTry\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ChatbotTry\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAwwI0AAAAcAAAA",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAnwLsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T18:18:44.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ChatbotTry\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ChatbotTry\\ChatbotTry\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ChatbotTry\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAD4AAAAuAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-04T18:18:41.241Z",
               "EditorCaption": ""

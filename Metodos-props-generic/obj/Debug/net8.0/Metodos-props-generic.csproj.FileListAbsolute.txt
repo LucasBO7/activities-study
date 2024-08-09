@@ -1,0 +1,15 @@
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\bin\Debug\net8.0\Metodos-props-generic.exe
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\bin\Debug\net8.0\Metodos-props-generic.deps.json
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\bin\Debug\net8.0\Metodos-props-generic.runtimeconfig.json
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\bin\Debug\net8.0\Metodos-props-generic.dll
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\bin\Debug\net8.0\Metodos-props-generic.pdb
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.AssemblyInfoInputs.cache
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.AssemblyInfo.cs
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.csproj.CoreCompileInputs.cache
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.sourcelink.json
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.dll
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\refint\Metodos-props-generic.dll
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.pdb
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\Metodos-props-generic.genruntimeconfig.cache
+C:\Users\Batata Voadora\Desktop\activities-study\Metodos-props-generic\obj\Debug\net8.0\ref\Metodos-props-generic.dll

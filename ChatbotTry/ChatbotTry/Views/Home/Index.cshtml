@@ -61,8 +61,8 @@
                     message_user: userMessageInput
                 }
             }).done(function (chatViewModel) {
-                const botResponse = $("#bot-response-text");
-                const ytUri = $("#yt-media-link");
+                // const botResponse = $("#bot-response-text");
+                // const ytUri = $("#yt-media-link");
 
                 if (chatViewModel.botResponse != null) {
                     botResponse.text(chatViewModel.botResponse);

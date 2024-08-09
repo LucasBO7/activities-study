@@ -9,6 +9,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using static ChatbotTry.Models.Method;
 
 namespace ChatbotTry.Controllers
 {
@@ -20,9 +21,6 @@ namespace ChatbotTry.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            //IWebDriver webDriver = new ChromeDriver();
-            //TempData["WebDriver"] = webDriver;
-            //TempData.Keep("WebDriver");
         }
 
         public IActionResult Index()
@@ -80,6 +78,27 @@ namespace ChatbotTry.Controllers
             "clipe"
         };
 
+        // Palavras que indicam o pedido de abrir um site
+        string[] siteAbrir =
+        {
+            "site",
+            "site do",
+            "pagina",
+            "pagina do",
+        };
+
+        // Palavras que indicam o pedido de clicar em algum botão do site
+        string[] siteClickBotao =
+        {
+            "clique",
+            "clica",
+            "pressione",
+            "pressiona",
+            "va em",
+            "va na ",
+            "entre em"
+        };
+
         // Palavras usadas para identificar perguntas
         string[] askingCommandWords =
         {
@@ -106,6 +125,16 @@ namespace ChatbotTry.Controllers
             "reproduza"
         };
 
+        string[] actionWebsiteCommandWords =
+        {
+            "abra",
+            "abre",
+            "abrir",
+            "entre",
+            "entra",
+            "entrar",
+            "va",
+        };
 
         [HttpPost]
         public async Task<JsonResult> Salvar(string message_user)
@@ -139,28 +168,82 @@ namespace ChatbotTry.Controllers
             // Data
             Intention.CreateNewIntention(intentionList, IntentionNames.Data, dataAtual, askingCommandWords, formattedMessage_user, $"Hoje é {DateTime.Now.ToLongDateString()}");
 
+            // Abrir site
+            Intention.CreateNewIntention(intentionList, IntentionNames.Website, siteAbrir, actionWebsiteCommandWords, formattedMessage_user, "Abrindo o site...", GenericWebMethods.OpenWebsite);
+
+            // Clicar em botão - site
+            Intention.CreateNewIntention(intentionList, IntentionNames.Website, siteClickBotao, formattedMessage_user, "Clicando no botão...", GenericWebMethods.ClickButton);
+
             // Video YouTube
             Intention.CreateNewIntention(intentionList, IntentionNames.Youtube, playYoutubeVideo, actionCommandWords, formattedMessage_user, $"Rodando vídeo do Youtube...", YouTube.RunVideoByName);
 
             // Verifica qual é a intenção selecionada
-            var result = intentionList.FirstOrDefault(i => i.IsThis == true, null);
+            Intention detectedIntention = intentionList.FirstOrDefault(i => i!.IsThis == true, null)!;
 
 
-            if (result == null)
+            if (detectedIntention == null)
                 chatViewModel.BotResponse = "Nada identificado, realizando pesquisa...";
             else
             {
-                // Verifica se há alguma função para ser executada
-                if (result.CustomGenericFunction != null)
-                    // Roda a função do método
-                    chatViewModel = new()
-                    {
-                        YoutubeUri = await result.CustomGenericFunction(noAcentsMessage_user),
-                        BotResponse = $"Reproduzindo {noAcentsMessage_user} no YouTube..."
-                    };
+                // ATENÇÃO!!!!!!
+                // ATENÇÃO!!!!!!
+                // ATENÇÃO!!!!!!
+                // ATENÇÃO!!!!!!
+                // ATENÇÃO!!!!!!
+                // ATENÇÃO!!!!!!
+                // Depois podemos realizar uma troca, para que não seja necessário realizar este switch-case, realizando então a troca das propriedades para uma propriedade só para o recebimento do retorno dos métodos
+
+                // Se o método for síncrono
+                if (detectedIntention.CustomGenericFunction != null)
+                    chatViewModel.FunctionResultReturn = detectedIntention.CustomGenericFunction(noAcentsMessage_user);
                 else
-                    // Pega a resposta do bot
-                    chatViewModel.BotResponse = result.Response!;
+                {
+                    // Se o método for assíncrono
+                    if (detectedIntention.CustomGenericFunctionAsync != null)
+                        chatViewModel.FunctionResultReturn = await detectedIntention.CustomGenericFunctionAsync(noAcentsMessage_user);
+                    else
+                        // Se não houver método a ser executado
+                        chatViewModel.BotResponse = detectedIntention.Response!;
+                }
+
+
+                //if (detectedIntention.CustomGenericFunction != null || detectedIntention.CustomGenericFunctionAsync != null)
+                //{
+                //    // Verifica se há alguma função para ser executada
+                //    switch (detectedIntention.CustomGenericFunction!.Method.Name)
+                //    {
+                //        case nameof(YouTube.RunVideoByName):
+                //            // Roda a função do método
+                //            chatViewModel.YoutubeUri = await detectedIntention.CustomGenericFunctionAsync!(noAcentsMessage_user);
+                //            chatViewModel.BotResponse = $"Reproduzindo {noAcentsMessage_user} no YouTube...";
+                //            break;
+
+                //        case nameof(GenericWebMethods.OpenWebsite):
+                //            noAcentsMessage_user = GenericWebMethods.GetSiteSearchName(noAcentsMessage_user);
+                //            chatViewModel.WebsiteUrl = detectedIntention.CustomGenericFunction(noAcentsMessage_user);
+                //            chatViewModel.BotResponse = $"Abrindo o site {noAcentsMessage_user}...";
+                //            break;
+
+                //        case nameof(GenericWebMethods.ClickButton):
+                //            noAcentsMessage_user = GenericWebMethods.GetButtonName(noAcentsMessage_user);
+                //            chatViewModel.WebsiteUrl = detectedIntention.CustomGenericFunction(noAcentsMessage_user);
+                //            chatViewModel.BotResponse = $"Clicando em {noAcentsMessage_user}...";
+                //            break;
+
+                //        default:
+                //            chatViewModel = new()
+                //            {
+                //                BotResponse = $"Houve um erro na verificação do método: {result.CustomGenericFunction.Method.Name}",
+                //                WebsiteUrl = null,
+                //                YoutubeUri = null
+                //            };
+                //            break;
+                //    }
+
+                //}
+                //else
+                //    // Pega a resposta do bot
+                //    chatViewModel.BotResponse = detectedIntention.Response!;
             }
 
             intentionList.Clear();
@@ -169,8 +252,6 @@ namespace ChatbotTry.Controllers
 
             //return View("Index", chatViewModel);
         }
-
-
 
         public IActionResult Privacy()
         {
