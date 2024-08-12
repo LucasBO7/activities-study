@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <p>Meu id: <span id="mineIdLabel"></span> </p>
+
+    <ul id="usersList"></ul>
+
+    <label>Id do usuário:</label>
+    <input id="connectionidInput" />
+
+    <label>Mensagem:</label>
+    <input id="userMessageInput" />
+    <button id="sendMessageBtn">Enviar</button>
+
+    <ul id="messagesList"></ul>
+
+</div>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
