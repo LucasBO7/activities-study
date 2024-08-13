@@ -4,6 +4,15 @@ namespace SignalRChat_Server.Hubs
 {
     public class ChatHub : Hub
     {
+        public override async Task OnConnectedAsync()
+        {
+            string? connectionId = GetUserConnectionId();
+            await Clients.All.SendAsync("UserConnected", connectionId);
+
+            // Chame a base para continuar o fluxo de conexão padrão
+            await base.OnConnectedAsync();
+        }
+
         /// <summary>
         /// Pega o Id do usuário e retorna
         /// </summary>

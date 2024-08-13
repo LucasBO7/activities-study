@@ -14,8 +14,9 @@ namespace SignalRChat.Controllers
         {
             try
             {
-                const string url = "https://localhost:7216/chatHub";
-                await using var connection = new HubConnectionContext
+                //const string url = "https://localhost:7216/chatHub";
+                //await using var connection = new 
+
             }
             catch (Exception exc)
             {
