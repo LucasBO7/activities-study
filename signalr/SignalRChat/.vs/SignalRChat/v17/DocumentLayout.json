@@ -40,8 +40,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T17:30:44.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T17:30:44.615Z"
             },
             {
               "$type": "Document",
@@ -53,8 +52,7 @@
               "RelativeToolTip": "Controllers\\SignalRChatController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T20:18:19.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T20:18:19.804Z"
             },
             {
               "$type": "Document",
@@ -64,7 +62,7 @@
               "RelativeDocumentMoniker": "..\\SignalRChat_Server\\Hubs\\ChatHub.cs",
               "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "..\\SignalRChat_Server\\Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T20:05:43.465Z",
               "EditorCaption": ""
