@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Routes } from './Routes/routes'
-import { HubConnectionBuilder } from '@microsoft/signalr';
-
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import { Routes, RoutesComponent } from "./RoutesPath/routesComponent";
+import { HubConnectionBuilder } from "@microsoft/signalr";
 
 function App() {
-  return <Routes />
+  return <RoutesComponent />;
 
   // return (
   //   <>
@@ -32,4 +31,4 @@ function App() {
   // )
 }
 
-export default App
+export default App;

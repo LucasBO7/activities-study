@@ -25,3 +25,30 @@ C:\Users\41365718875\Desktop\activities-study\signalr\SignalRChat_Server\obj\Deb
 C:\Users\41365718875\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.pdb
 C:\Users\41365718875\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.genruntimeconfig.cache
 C:\Users\41365718875\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\ref\SignalRChat_Server.dll
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\appsettings.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\libman.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\SignalRChat_Server.exe
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\SignalRChat_Server.deps.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\SignalRChat_Server.runtimeconfig.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\SignalRChat_Server.dll
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\bin\Debug\net8.0\SignalRChat_Server.pdb
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.AssemblyInfoInputs.cache
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.AssemblyInfo.cs
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.csproj.CoreCompileInputs.cache
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.sourcelink.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\staticwebassets\msbuild.SignalRChat_Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\staticwebassets\msbuild.build.SignalRChat_Server.props
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SignalRChat_Server.props
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SignalRChat_Server.props
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\scopedcss\bundle\SignalRChat_Server.styles.css
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.dll
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\refint\SignalRChat_Server.dll
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.pdb
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\SignalRChat_Server.genruntimeconfig.cache
+C:\Users\Batata Voadora\Desktop\activities-study\signalr\SignalRChat_Server\obj\Debug\net8.0\ref\SignalRChat_Server.dll

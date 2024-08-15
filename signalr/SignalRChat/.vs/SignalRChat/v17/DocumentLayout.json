@@ -1,24 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat\\",
+  "WorkspaceRootPath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7719D61-5E80-4EAB-B2B2-4BA0EBA78E9A}|..\\SignalRChat_Server\\SignalRChat_Server.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\signalrchat_server\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7719D61-5E80-4EAB-B2B2-4BA0EBA78E9A}|..\\SignalRChat_Server\\SignalRChat_Server.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\signalr\\signalrchat_server\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7719D61-5E80-4EAB-B2B2-4BA0EBA78E9A}|..\\SignalRChat_Server\\SignalRChat_Server.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\signalrchat_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7719D61-5E80-4EAB-B2B2-4BA0EBA78E9A}|..\\SignalRChat_Server\\SignalRChat_Server.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\signalr\\signalrchat_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\signalrchat\\controllers\\signalrchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7719D61-5E80-4EAB-B2B2-4BA0EBA78E9A}|..\\SignalRChat_Server\\SignalRChat_Server.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\signalr\\signalrchat_server\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\signalr\\signalrchat\\controllers\\signalrchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|solutionrelative:controllers\\signalrchatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\signalrchat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\signalr\\signalrchat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\signalrchat\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|c:\\users\\batata voadora\\desktop\\activities-study\\signalr\\signalrchat\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C3046D-8367-4E1F-AE7F-739EEAD836BD}|SignalRChat.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,15 +37,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\SignalRChat_Server\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Pages\\Index.cshtml",
+              "RelativeToolTip": "..\\SignalRChat_Server\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T01:56:16.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SignalRChat_Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
+              "RelativeToolTip": "..\\SignalRChat_Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:26:29.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "..\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "..\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T23:58:58.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat\\Program.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,49 +104,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SignalRChatController.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\SignalRChatController.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\SignalRChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\SignalRChatController.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\SignalRChatController.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\SignalRChatController.cs",
               "RelativeToolTip": "Controllers\\SignalRChatController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T20:18:19.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "..\\SignalRChat_Server\\Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
-              "RelativeToolTip": "..\\SignalRChat_Server\\Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAkAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T20:05:43.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
-              "RelativeDocumentMoniker": "..\\SignalRChat_Server\\Program.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
-              "RelativeToolTip": "..\\SignalRChat_Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T19:52:01.474Z",
+              "WhenOpened": "2024-08-12T20:18:19.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Hubs\\ChatHub.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T20:05:43.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat_Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:52:01.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\signalr\\SignalRChat\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
