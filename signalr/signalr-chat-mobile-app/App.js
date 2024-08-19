@@ -5,7 +5,7 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 import { WebSocketSignalR } from "./Classes/WebSocketSignalRClass";
 
 export default function App() {
-  const [socketConnectionReady, setSocketConnectionReady] = useState(false);
+  // const [socketConnectionReady, setSocketConnectionReady] = useState(false);
 
   const [user, setUser] = useState({
     id: 0,
@@ -15,11 +15,11 @@ export default function App() {
   });
 
   useEffect(() => {
-    if (!socketConnectionReady) {
-      WebSocketSignalR.initSocketConnection(() => {
-        setSocketConnectionReady(true);
-      });
-    }
+    // if (!socketConnectionReady) {
+    //   WebSocketSignalR.initSocketConnection(() => {
+    //     setSocketConnectionReady(true);
+    //   });
+    // }
   }, []);
 
   // const connection = new HubConnectionBuilder()
