@@ -8,7 +8,7 @@ builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
     builder
     .AllowAnyMethod()
     .AllowAnyHeader()
-    .WithOrigins("http://localhost:5057")
+    .WithOrigins("http://localhost:8081")
     .AllowCredentials();
 }));
 builder.Services.AddRazorPages();
@@ -34,6 +34,6 @@ app.UseAuthorization();
 app.UseCors("CorsPolicy");
 
 app.MapRazorPages();
-app.MapHub<ChatHub>("/chatHub");
+app.MapHub<ChatHub>("/chathub");
 
 app.Run();
