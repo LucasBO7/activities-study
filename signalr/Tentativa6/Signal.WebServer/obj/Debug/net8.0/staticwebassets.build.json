@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uhypFSv2ElqtsiEfNYmmgg06pPva3zcYN29op2uQfIM=",
+  "Source": "Signal.WebServer",
+  "BasePath": "_content/Signal.WebServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
