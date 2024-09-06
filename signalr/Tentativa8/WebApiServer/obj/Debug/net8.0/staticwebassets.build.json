@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XziFGyoDiSIRXWTqmYe5tDKpxu1/fGslRC2EFD3+qKI=",
+  "Source": "WebApiServer",
+  "BasePath": "_content/WebApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

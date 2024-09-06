@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Signal.WebServer.csproj": {}
+    "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Signal.WebServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Signal.WebServer.csproj": {
+    "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Signal.WebServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Signal.WebServer.csproj",
+        "projectUniqueName": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Signal.WebServer.csproj",
         "projectName": "Signal.WebServer",
-        "projectPath": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Signal.WebServer.csproj",
+        "projectPath": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Signal.WebServer.csproj",
         "packagesPath": "C:\\Users\\41365718875\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\obj\\",
+        "outputPath": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\41365718875\\AppData\\Roaming\\NuGet\\NuGet.Config",

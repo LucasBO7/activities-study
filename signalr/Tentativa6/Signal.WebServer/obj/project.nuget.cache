@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8AZe4YOObUBfkEzvNzU3HRhLJR+YpdU7Rg8gTrbtQLvphi0EzQ1owQ5bubViUBbUjH8exAvW7gBNaIdItqkUoQ==",
+  "dgSpecHash": "KNVsxkQB4d2h6cOohbP42h8HXPfilUoAzBw/N/aX87Hjj6D9y8l7RDFQVLjFgp040GTm9E2XN6P1DW2TpuH0gw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Signal.WebServer.csproj",
+  "projectFilePath": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Signal.WebServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\41365718875\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\41365718875\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Psm2XHEAgSEARzJomj6qu31j8oHsLpu2PRusWJ2tH+M=",
+  "Source": "ClientTryWebApi",
+  "BasePath": "_content/ClientTryWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

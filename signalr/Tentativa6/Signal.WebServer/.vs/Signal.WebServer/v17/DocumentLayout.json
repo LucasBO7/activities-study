@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\",
+  "WorkspaceRootPath": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\signal.webserver\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa6\\signal.webserver\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\signal.webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa6\\signal.webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\signal.webserver\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa6\\signal.webserver\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\signal.webserver\\hubs\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa6\\signal.webserver\\hubs\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|solutionrelative:hubs\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\signal.webserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa6\\signal.webserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA9FE7EF-5F6B-4600-ADBE-D4DAE14D749A}|Signal.WebServer.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,48 +36,45 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Program.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T19:07:38.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T19:07:38.971Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Controllers\\ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Controllers\\ChatController.cs",
               "RelativeToolTip": "Controllers\\ChatController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T18:49:00.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T18:49:00.873Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Hubs\\IChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Hubs\\IChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\IChatHub.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Hubs\\IChatHub.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Hubs\\IChatHub.cs",
               "RelativeToolTip": "Hubs\\IChatHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T18:16:07.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T18:16:07.742Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Hubs\\ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,14 +85,13 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\Signal.WebServer\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa6\\Signal.WebServer\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T18:15:01.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T18:15:01.3Z"
             }
           ]
         }

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa7\\clienttrywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa7\\clienttrywebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa7\\clienttrywebapi\\hub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|solutionrelative:hub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa7\\clienttrywebapi\\hub\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83065D32-41C6-4FAC-AD66-CFE1B57A92EF}|ClientTryWebApi.csproj|solutionrelative:hub\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:11:52.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Hub\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hub\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Hub\\ChatHub.cs",
+              "RelativeToolTip": "Hub\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:56:13.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Hub\\IChatHub.cs",
+              "RelativeDocumentMoniker": "Hub\\IChatHub.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Hub\\IChatHub.cs",
+              "RelativeToolTip": "Hub\\IChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:55:51.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa7\\ClientTryWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:55:23.903Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
