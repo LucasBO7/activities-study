@@ -16,9 +16,15 @@ namespace WebApiServer.Hubs
             await Clients.Group(conn.ChatRoom).SendAsync("ReceiveMessage", "admin", $"{conn.Username} has joined {conn.ChatRoom}");
         }
 
-        public async Task SendMessage()
+        public override async Task<Task> OnConnectedAsync()
         {
+            await Clients.All.SendAsync("ReceiveMessage", "adimn", "An user has connected");
+            return base.OnConnectedAsync();
+        }
 
+        public async Task SendMessageForAll(string message)
+        {
+            await Clients.All.SendAsync("ReceiveMessage", "admin", message);
         }
     }
 }
