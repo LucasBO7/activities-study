@@ -21,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{34C9116D-7656-4475-9C3D-82CAD5FD6345}|WebApiServer.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa8\\webapiserver\\webapiserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{34C9116D-7656-4475-9C3D-82CAD5FD6345}|WebApiServer.csproj|solutionrelative:webapiserver.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C9116D-7656-4475-9C3D-82CAD5FD6345}|WebApiServer.csproj|c:\\users\\41365718875\\desktop\\activities-study\\signalr\\tentativa8\\webapiserver\\webapiserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{34C9116D-7656-4475-9C3D-82CAD5FD6345}|WebApiServer.csproj|solutionrelative:webapiserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +42,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-12T17:47:23.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T17:47:23.908Z"
             },
             {
               "$type": "Document",
@@ -59,8 +54,7 @@
               "RelativeToolTip": "WebApiServer.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-12T17:47:12.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T17:47:12.436Z"
             },
             {
               "$type": "Document",
@@ -72,8 +66,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T19:06:34.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T19:06:34.206Z"
             },
             {
               "$type": "Document",
@@ -83,7 +76,7 @@
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
               "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa8\\WebApiServer\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA8AAAAyAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T19:02:03.892Z",
               "EditorCaption": ""
@@ -98,21 +91,7 @@
               "RelativeToolTip": "Models\\UserConnection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T19:00:57.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WebApiServer.csproj",
-              "DocumentMoniker": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa8\\WebApiServer\\WebApiServer.csproj",
-              "RelativeDocumentMoniker": "WebApiServer.csproj",
-              "ToolTip": "C:\\Users\\41365718875\\Desktop\\activities-study\\signalr\\Tentativa8\\WebApiServer\\WebApiServer.csproj",
-              "RelativeToolTip": "WebApiServer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-06T19:00:08.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T19:00:57.023Z"
             }
           ]
         }

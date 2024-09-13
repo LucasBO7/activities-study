@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -6,63 +5,45 @@ import { useEffect, useState } from 'react';
 import { HubConnectionBuilder, LogLevel } from '@microsoft/signalr';
 import { MessagesList } from './Components/MessagesList';
 
-function App() {
-  const [connection, setConnection] = useState();
+const App = () => {
+  const [connection, setConnection] = useState(null);
   const [message, setMessage] = useState("");
   const [allMessages, setAllMessages] = useState([]);
-  const [isConnected, setIsConnected] = useState(false);
 
-  const joinChatRoom = async (username = "Batata", chatroom = "1") => {
+  const startConnection = async () => {
     try {
+      // Cria objeto HubConnection
       const conn = new HubConnectionBuilder()
         .withUrl("http://localhost:5005/chat")
         .configureLogging(LogLevel.Information)
         .build();
 
-      // Set up handler
-      conn.on("JoinSpecificChatRoom", (username, msg) => {
-        alert("msg: ", msg);
-      })
-
+      // Inicia a conexão
       await conn.start();
-      await conn.invoke("JoinSpecificChatRoom", {
-        username: username,
-        chatroom: chatroom
-      });
 
-      setConnection(connection);
-    } catch (e) {
-      console.log(e);
+      // Guarda a conexão no state
+      setConnection(conn);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  const handleReceiveMessage = () => {
+    if (connection) {
+      connection.on("ReceiveMessage", (username, msg) => {
+        setAllMessages(prevState => [...prevState, { username, msg }]);
+        // setAllMessages();
+      });
     }
   }
 
   useEffect(() => {
-    async function OnConnectedUser() {
-      try {
-        const conn = new HubConnectionBuilder()
-          .withUrl("http://localhost:5005/chat")
-          .configureLogging(LogLevel.Information)
-          .build();
+    startConnection();
+  }, [])
 
-        // Set up handler
-        conn.on("ReceiveMessage", (username, msg) => {
-          if (!isConnected) {
-            // alert(`Conectado! ${username}: ${msg}`);
-            setIsConnected(true);
-          } else {
-            setAllMessages([...allMessages, { username, msg }]);
-          }
-        })
-
-        await conn.start();
-        if (!connection)
-          setConnection(conn);
-      } catch (e) {
-        console.log(e);
-      }
-    }
-    OnConnectedUser();
-  }, []);
+  useEffect(() => {
+    handleReceiveMessage()
+  }, [connection])
 
   return (
     <div className="App">
@@ -81,13 +62,13 @@ function App() {
               <input id='message-input' value={message.text} onChange={e => setMessage({ ...message, text: e.target.value })} />
 
               <button onClick={() => {
-                connection.invoke("SendMessageForAll", message.text);
+                connection.invoke("SendMessageForAll", message.user, message.text);
               }}>Enviar mensagem para todos</button>
 
-              <MessagesList messages={allMessages} />
             </Col>
           </Row>
         </Container>
+        <MessagesList messages={allMessages} />
       </main>
     </div >
   );

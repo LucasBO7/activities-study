@@ -22,9 +22,9 @@ namespace WebApiServer.Hubs
             return base.OnConnectedAsync();
         }
 
-        public async Task SendMessageForAll(string message)
+        public async Task SendMessageForAll(string username, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", "admin", message);
+            await Clients.All.SendAsync("ReceiveMessage", username, message);
         }
     }
 }
