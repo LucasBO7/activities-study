@@ -1,13 +1,16 @@
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
 import { HubConnectionBuilder, LogLevel } from '@microsoft/signalr';
 import { MessagesList } from './Components/MessagesList';
+import { LoginForm, RegisterForm } from './Components/AuthForm';
+import api from './Services/Service';
 
 const App = () => {
   const [connection, setConnection] = useState(null);
   const [message, setMessage] = useState("");
+  const [connectedUsers, setConnectedUsers] = useState([]);
   const [allMessages, setAllMessages] = useState([]);
 
   const startConnection = async () => {
@@ -30,43 +33,75 @@ const App = () => {
 
   const handleReceiveMessage = () => {
     if (connection) {
-      connection.on("ReceiveMessage", (username, msg) => {
-        setAllMessages(prevState => [...prevState, { username, msg }]);
-        // setAllMessages();
+      connection.on("ReceiveMessage", (user, msg) => {
+        setAllMessages(prevState => [...prevState, { user, msg }]);
       });
+
+      connection.on("OnConnectedUser", (admin, message) => {
+        setConnectedUsers(prevState => [...prevState, { user: admin, msg: message }]);
+      })
+    }
+  }
+
+  const sendEventToServer = (props) => {
+    if (connection) {
+      connection.invoke("SendMessageForAll", props.user, props.text);
     }
   }
 
   useEffect(() => {
+    alert("Conexão iniciada!");
     startConnection();
   }, [])
 
   useEffect(() => {
-    handleReceiveMessage()
+    handleReceiveMessage();
   }, [connection])
+
+
+  // User Actions
+  const [user, setUser] = useState({});
+
+  const RegisterUser = async (prop) => {
+    await api.post("/users", {
+      id: Date.now().toLocaleString(),
+      connectionId: 0,
+      name: prop.name,
+      password: prop.password,
+    })
+      .then(response => alert("Usuário cadastrado com sucesso!"))
+      .catch(error => alert("Houve um erro! ", error))
+  }
+
+  const LoginUser = () => {
+
+  }
 
   return (
     <div className="App">
       <main>
+        {/* User Actions */}
+        <Container className='bg-gray'>
+          <RegisterForm onSubmitForm={RegisterUser} user={user} setUser={setUser} />
+          <LoginForm onSubmitForm={LoginUser} user={user} setUser={setUser} />
+        </Container>
+
+
+        {/* Messages Actions */}
         <Container>
-          <Row className='px-5 my-5'>
-            <Col sm='12'>
-              <h1 className='font-weight-light'>Chat com SignalR</h1>
+          <h1 className='font-weight-light'>Chat com SignalR</h1>
 
-              {/* User Input */}
-              <label htmlFor="user-input">Usuário</label>
-              <input id='user-input' value={message.user} onChange={e => setMessage({ ...message, user: e.target.value })} />
+          {/* User Input */}
+          <label htmlFor="user-input">Usuário</label>
+          <input id='user-input' value={message.user} onChange={e => setMessage({ ...message, user: e.target.value })} />
 
-              {/* Message Input */}
-              <label htmlFor="message-input">Mensagem</label>
-              <input id='message-input' value={message.text} onChange={e => setMessage({ ...message, text: e.target.value })} />
+          {/* Message Input */}
+          <label htmlFor="message-input">Mensagem</label>
+          <input id='message-input' value={message.text} onChange={e => setMessage({ ...message, text: e.target.value })} />
 
-              <button onClick={() => {
-                connection.invoke("SendMessageForAll", message.user, message.text);
-              }}>Enviar mensagem para todos</button>
+          <button onClick={() => sendEventToServer(message)}>Enviar mensagem para todos</button>
 
-            </Col>
-          </Row>
+          <MessagesList messages={connectedUsers} />
         </Container>
         <MessagesList messages={allMessages} />
       </main>

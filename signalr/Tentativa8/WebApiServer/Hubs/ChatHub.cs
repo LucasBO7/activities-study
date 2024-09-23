@@ -18,13 +18,18 @@ namespace WebApiServer.Hubs
 
         public override async Task<Task> OnConnectedAsync()
         {
-            await Clients.All.SendAsync("ReceiveMessage", "adimn", "An user has connected");
+            await Clients.All.SendAsync("OnConnectedUser", "adimn", "An user has connected");
             return base.OnConnectedAsync();
         }
 
         public async Task SendMessageForAll(string username, string message)
         {
             await Clients.All.SendAsync("ReceiveMessage", username, message);
+        }
+
+        public async Task SendMessageToUser(string userId, string message)
+        {
+            await Clients.Client(userId).SendAsync("ReceiveMessage", message);
         }
     }
 }
