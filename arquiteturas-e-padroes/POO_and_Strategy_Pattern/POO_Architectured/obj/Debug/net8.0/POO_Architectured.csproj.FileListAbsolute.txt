@@ -1,0 +1,14 @@
+C:\Users\lucas\Documents\POO_Architectured\bin\Debug\net8.0\POO_Architectured.exe
+C:\Users\lucas\Documents\POO_Architectured\bin\Debug\net8.0\POO_Architectured.deps.json
+C:\Users\lucas\Documents\POO_Architectured\bin\Debug\net8.0\POO_Architectured.runtimeconfig.json
+C:\Users\lucas\Documents\POO_Architectured\bin\Debug\net8.0\POO_Architectured.dll
+C:\Users\lucas\Documents\POO_Architectured\bin\Debug\net8.0\POO_Architectured.pdb
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\POO_Architectured.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\POO_Architectured.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\POO_Architectured.AssemblyInfo.cs
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\POO_Architectured.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\POO_Architectured.dll
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\refint\POO_Architectured.dll
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\POO_Architectured.pdb
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\POO_Architectured.genruntimeconfig.cache
+C:\Users\lucas\Documents\POO_Architectured\obj\Debug\net8.0\ref\POO_Architectured.dll

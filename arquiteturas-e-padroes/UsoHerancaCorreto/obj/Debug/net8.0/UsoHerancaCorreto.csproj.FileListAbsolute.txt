@@ -1,0 +1,14 @@
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\bin\Debug\net8.0\UsoHerancaCorreto.exe
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\bin\Debug\net8.0\UsoHerancaCorreto.deps.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\bin\Debug\net8.0\UsoHerancaCorreto.runtimeconfig.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\bin\Debug\net8.0\UsoHerancaCorreto.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\bin\Debug\net8.0\UsoHerancaCorreto.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\UsoHerancaCorreto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\UsoHerancaCorreto.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\UsoHerancaCorreto.AssemblyInfo.cs
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\UsoHerancaCorreto.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\UsoHerancaCorreto.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\refint\UsoHerancaCorreto.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\UsoHerancaCorreto.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\UsoHerancaCorreto.genruntimeconfig.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\UsoHerancaCorreto\obj\Debug\net8.0\ref\UsoHerancaCorreto.dll

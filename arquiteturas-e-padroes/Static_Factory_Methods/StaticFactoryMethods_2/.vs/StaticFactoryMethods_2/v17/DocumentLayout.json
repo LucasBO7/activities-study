@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{794C2D69-DE55-CE10-60CE-0D13AD27829F}|StaticFactoryMethods_2.csproj|c:\\users\\lucas\\desktop\\arquiteturas-e-padroes\\staticfactorymethods_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794C2D69-DE55-CE10-60CE-0D13AD27829F}|StaticFactoryMethods_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794C2D69-DE55-CE10-60CE-0D13AD27829F}|StaticFactoryMethods_2.csproj|c:\\users\\lucas\\desktop\\arquiteturas-e-padroes\\staticfactorymethods_2\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794C2D69-DE55-CE10-60CE-0D13AD27829F}|StaticFactoryMethods_2.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794C2D69-DE55-CE10-60CE-0D13AD27829F}|StaticFactoryMethods_2.csproj|c:\\users\\lucas\\desktop\\arquiteturas-e-padroes\\staticfactorymethods_2\\entities\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794C2D69-DE55-CE10-60CE-0D13AD27829F}|StaticFactoryMethods_2.csproj|solutionrelative:entities\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProduct.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\Entities\\IProduct.cs",
+              "RelativeDocumentMoniker": "Entities\\IProduct.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\Entities\\IProduct.cs",
+              "RelativeToolTip": "Entities\\IProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:08:29.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:58:16.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:58:03.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

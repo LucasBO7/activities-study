@@ -1,0 +1,14 @@
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\bin\Debug\net8.0\HookMethods_Default.exe
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\bin\Debug\net8.0\HookMethods_Default.deps.json
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\bin\Debug\net8.0\HookMethods_Default.runtimeconfig.json
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\bin\Debug\net8.0\HookMethods_Default.dll
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\bin\Debug\net8.0\HookMethods_Default.pdb
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\HookMethods_Default.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\HookMethods_Default.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\HookMethods_Default.AssemblyInfo.cs
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\HookMethods_Default.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\HookMethods_Default.dll
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\refint\HookMethods_Default.dll
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\HookMethods_Default.pdb
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\HookMethods_Default.genruntimeconfig.cache
+C:\Users\lucas\source\repos\HookMethods_Default\HookMethods_Default\obj\Debug\net8.0\ref\HookMethods_Default.dll

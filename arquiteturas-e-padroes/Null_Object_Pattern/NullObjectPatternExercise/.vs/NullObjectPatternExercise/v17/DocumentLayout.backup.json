@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|c:\\users\\lucas\\desktop\\arquiteturas-e-padroes\\null_object_pattern\\nullobjectpatternexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|c:\\users\\lucas\\desktop\\arquiteturas-e-padroes\\null_object_pattern\\nullobjectpatternexercise\\entities\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|solutionrelative:entities\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|c:\\users\\lucas\\desktop\\arquiteturas-e-padroes\\null_object_pattern\\nullobjectpatternexercise\\entities\\nulllogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|solutionrelative:entities\\nulllogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|c:\\users\\lucas\\desktop\\arquiteturas-e-padroes\\null_object_pattern\\nullobjectpatternexercise\\entities\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A34B396-2527-7F3D-5EA1-6D326D8B67F5}|NullObjectPatternExercise.csproj|solutionrelative:entities\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NullLogger.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Entities\\NullLogger.cs",
+              "RelativeDocumentMoniker": "Entities\\NullLogger.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Entities\\NullLogger.cs",
+              "RelativeToolTip": "Entities\\NullLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T20:36:02.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleLogger.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Entities\\ConsoleLogger.cs",
+              "RelativeDocumentMoniker": "Entities\\ConsoleLogger.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Entities\\ConsoleLogger.cs",
+              "RelativeToolTip": "Entities\\ConsoleLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T20:29:18.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Entities\\ILogger.cs",
+              "RelativeDocumentMoniker": "Entities\\ILogger.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Entities\\ILogger.cs",
+              "RelativeToolTip": "Entities\\ILogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T20:28:47.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\Null_Object_Pattern\\NullObjectPatternExercise\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:29:07.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

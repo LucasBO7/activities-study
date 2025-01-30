@@ -1,0 +1,14 @@
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\bin\Debug\net8.0\StaticFactoyMethods.exe
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\bin\Debug\net8.0\StaticFactoyMethods.deps.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\bin\Debug\net8.0\StaticFactoyMethods.runtimeconfig.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\bin\Debug\net8.0\StaticFactoyMethods.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\bin\Debug\net8.0\StaticFactoyMethods.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\StaticFactoyMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\StaticFactoyMethods.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\StaticFactoyMethods.AssemblyInfo.cs
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\StaticFactoyMethods.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\StaticFactoyMethods.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\refint\StaticFactoyMethods.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\StaticFactoyMethods.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\StaticFactoyMethods.genruntimeconfig.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoyMethods\obj\Debug\net8.0\ref\StaticFactoyMethods.dll

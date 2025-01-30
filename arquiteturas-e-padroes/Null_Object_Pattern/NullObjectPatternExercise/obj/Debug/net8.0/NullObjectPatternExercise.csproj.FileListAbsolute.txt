@@ -1,0 +1,14 @@
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\NullObjectPatternExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\NullObjectPatternExercise.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\NullObjectPatternExercise.AssemblyInfo.cs
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\NullObjectPatternExercise.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\bin\Debug\net8.0\NullObjectPatternExercise.exe
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\bin\Debug\net8.0\NullObjectPatternExercise.deps.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\bin\Debug\net8.0\NullObjectPatternExercise.runtimeconfig.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\bin\Debug\net8.0\NullObjectPatternExercise.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\bin\Debug\net8.0\NullObjectPatternExercise.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\NullObjectPatternExercise.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\refint\NullObjectPatternExercise.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\NullObjectPatternExercise.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\NullObjectPatternExercise.genruntimeconfig.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\Null_Object_Pattern\NullObjectPatternExercise\obj\Debug\net8.0\ref\NullObjectPatternExercise.dll

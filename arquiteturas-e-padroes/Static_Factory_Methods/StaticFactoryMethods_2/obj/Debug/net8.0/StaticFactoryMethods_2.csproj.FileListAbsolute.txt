@@ -1,0 +1,14 @@
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\bin\Debug\net8.0\StaticFactoryMethods_2.exe
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\bin\Debug\net8.0\StaticFactoryMethods_2.deps.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\bin\Debug\net8.0\StaticFactoryMethods_2.runtimeconfig.json
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\bin\Debug\net8.0\StaticFactoryMethods_2.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\bin\Debug\net8.0\StaticFactoryMethods_2.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\StaticFactoryMethods_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\StaticFactoryMethods_2.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\StaticFactoryMethods_2.AssemblyInfo.cs
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\StaticFactoryMethods_2.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\StaticFactoryMethods_2.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\refint\StaticFactoryMethods_2.dll
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\StaticFactoryMethods_2.pdb
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\StaticFactoryMethods_2.genruntimeconfig.cache
+C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\obj\Debug\net8.0\ref\StaticFactoryMethods_2.dll
