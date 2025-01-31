@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|c:\\users\\lucas\\desktop\\activities-study\\metodos-props-generic\\entities\\delegatemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|solutionrelative:entities\\delegatemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|c:\\users\\lucas\\desktop\\activities-study\\metodos-props-generic\\entities\\delegatemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|solutionrelative:entities\\delegatemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|c:\\users\\lucas\\desktop\\activities-study\\metodos-props-generic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|c:\\users\\lucas\\desktop\\activities-study\\metodos-props-generic\\entities\\genericdelegatemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|solutionrelative:entities\\genericdelegatemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|c:\\users\\lucas\\desktop\\activities-study\\metodos-props-generic\\entities\\genericmethodsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|solutionrelative:entities\\genericmethodsdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|c:\\users\\lucas\\desktop\\activities-study\\metodos-props-generic\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D571264-C6F0-4BED-8A41-D07FFBCEFBCF}|Metodos-props-generic.csproj|solutionrelative:entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "Entities\\Message.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\Message.cs",
+              "RelativeToolTip": "Entities\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:56:10.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericDelegateMessage.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\GenericDelegateMessage.cs",
+              "RelativeDocumentMoniker": "Entities\\GenericDelegateMessage.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\GenericDelegateMessage.cs",
+              "RelativeToolTip": "Entities\\GenericDelegateMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:56:05.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericMethodsDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\GenericMethodsDelegate.cs",
+              "RelativeDocumentMoniker": "Entities\\GenericMethodsDelegate.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\GenericMethodsDelegate.cs",
+              "RelativeToolTip": "Entities\\GenericMethodsDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:56:04.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DelegateMethods.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\DelegateMethods.cs",
+              "RelativeDocumentMoniker": "Entities\\DelegateMethods.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\DelegateMethods.cs",
+              "RelativeToolTip": "Entities\\DelegateMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:54:29.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DelegateMessage.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\DelegateMessage.cs",
+              "RelativeDocumentMoniker": "Entities\\DelegateMessage.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Entities\\DelegateMessage.cs",
+              "RelativeToolTip": "Entities\\DelegateMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:55:55.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Metodos-props-generic\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:54:17.403Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

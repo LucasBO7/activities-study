@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\activities-study\\machine learning\\Speech.Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29F1A8D5-C3D9-4D42-9262-5F2AD335B274}|Speech.Demo\\Speech.Demo.csproj|c:\\users\\lucas\\desktop\\activities-study\\machine learning\\speech.demo\\speech.demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F1A8D5-C3D9-4D42-9262-5F2AD335B274}|Speech.Demo\\Speech.Demo.csproj|solutionrelative:speech.demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F1A8D5-C3D9-4D42-9262-5F2AD335B274}|Speech.Demo\\Speech.Demo.csproj|c:\\users\\lucas\\desktop\\activities-study\\machine learning\\speech.demo\\speech.demo\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F1A8D5-C3D9-4D42-9262-5F2AD335B274}|Speech.Demo\\Speech.Demo.csproj|solutionrelative:speech.demo\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F1A8D5-C3D9-4D42-9262-5F2AD335B274}|Speech.Demo\\Speech.Demo.csproj|c:\\users\\lucas\\desktop\\activities-study\\machine learning\\speech.demo\\speech.demo\\intentresponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29F1A8D5-C3D9-4D42-9262-5F2AD335B274}|Speech.Demo\\Speech.Demo.csproj|solutionrelative:speech.demo\\intentresponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\machine learning\\Speech.Demo\\Speech.Demo\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Speech.Demo\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\machine learning\\Speech.Demo\\Speech.Demo\\AppDbContext.cs",
+              "RelativeToolTip": "Speech.Demo\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:52:39.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IntentResponseController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\machine learning\\Speech.Demo\\Speech.Demo\\IntentResponseController.cs",
+              "RelativeDocumentMoniker": "Speech.Demo\\IntentResponseController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\machine learning\\Speech.Demo\\Speech.Demo\\IntentResponseController.cs",
+              "RelativeToolTip": "Speech.Demo\\IntentResponseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:52:39.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\machine learning\\Speech.Demo\\Speech.Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Speech.Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\machine learning\\Speech.Demo\\Speech.Demo\\Program.cs",
+              "RelativeToolTip": "Speech.Demo\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T00:52:39.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
