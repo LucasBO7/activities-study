@@ -1,0 +1,15 @@
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\bin\Debug\net8.0\SmartControlBridge.exe
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\bin\Debug\net8.0\SmartControlBridge.deps.json
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\bin\Debug\net8.0\SmartControlBridge.runtimeconfig.json
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\bin\Debug\net8.0\SmartControlBridge.dll
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\bin\Debug\net8.0\SmartControlBridge.pdb
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.AssemblyInfo.cs
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.sourcelink.json
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.dll
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\refint\SmartControlBridge.dll
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.pdb
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\SmartControlBridge.genruntimeconfig.cache
+C:\Users\lucas\Desktop\activities-study\arquiteturas-e-padroes\Bridge_Pattern\SmartControlBridge\SmartControlBridge\obj\Debug\net8.0\ref\SmartControlBridge.dll

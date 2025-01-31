@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas-e-padroes\\bridge_pattern\\smartcontrolbridge\\smartcontrolbridge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|solutionrelative:smartcontrolbridge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas-e-padroes\\bridge_pattern\\smartcontrolbridge\\smartcontrolbridge\\entities\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|solutionrelative:smartcontrolbridge\\entities\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas-e-padroes\\bridge_pattern\\smartcontrolbridge\\smartcontrolbridge\\entities\\advancedremotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|solutionrelative:smartcontrolbridge\\entities\\advancedremotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas-e-padroes\\bridge_pattern\\smartcontrolbridge\\smartcontrolbridge\\entities\\remotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|solutionrelative:smartcontrolbridge\\entities\\remotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas-e-padroes\\bridge_pattern\\smartcontrolbridge\\smartcontrolbridge\\entities\\simpleremotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|solutionrelative:smartcontrolbridge\\entities\\simpleremotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas-e-padroes\\bridge_pattern\\smartcontrolbridge\\smartcontrolbridge\\entities\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|solutionrelative:smartcontrolbridge\\entities\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas-e-padroes\\bridge_pattern\\smartcontrolbridge\\smartcontrolbridge\\entities\\lamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC44665-A704-4BA4-8AF1-38AB8F5B9589}|SmartControlBridge\\SmartControlBridge.csproj|solutionrelative:smartcontrolbridge\\entities\\lamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SimpleRemoteControl.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\SimpleRemoteControl.cs",
+              "RelativeDocumentMoniker": "SmartControlBridge\\Entities\\SimpleRemoteControl.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\SimpleRemoteControl.cs",
+              "RelativeToolTip": "SmartControlBridge\\Entities\\SimpleRemoteControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T23:29:11.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RemoteControl.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\RemoteControl.cs",
+              "RelativeDocumentMoniker": "SmartControlBridge\\Entities\\RemoteControl.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\RemoteControl.cs",
+              "RelativeToolTip": "SmartControlBridge\\Entities\\RemoteControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T23:23:45.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lamp.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\Lamp.cs",
+              "RelativeDocumentMoniker": "SmartControlBridge\\Entities\\Lamp.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\Lamp.cs",
+              "RelativeToolTip": "SmartControlBridge\\Entities\\Lamp.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T22:43:10.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tv.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\Tv.cs",
+              "RelativeDocumentMoniker": "SmartControlBridge\\Entities\\Tv.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\Tv.cs",
+              "RelativeToolTip": "SmartControlBridge\\Entities\\Tv.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T22:42:51.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDevice.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\IDevice.cs",
+              "RelativeDocumentMoniker": "SmartControlBridge\\Entities\\IDevice.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\IDevice.cs",
+              "RelativeToolTip": "SmartControlBridge\\Entities\\IDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T22:42:21.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Program.cs",
+              "RelativeDocumentMoniker": "SmartControlBridge\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Program.cs",
+              "RelativeToolTip": "SmartControlBridge\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T18:42:59.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdvancedRemoteControl.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\AdvancedRemoteControl.cs",
+              "RelativeDocumentMoniker": "SmartControlBridge\\Entities\\AdvancedRemoteControl.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\arquiteturas-e-padroes\\Bridge_Pattern\\SmartControlBridge\\SmartControlBridge\\Entities\\AdvancedRemoteControl.cs",
+              "RelativeToolTip": "SmartControlBridge\\Entities\\AdvancedRemoteControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T23:34:16.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+Aqui está um exercício prático para você aplicar o **Bridge Pattern** em C#:  
+
+---
+
+## **Exercício: Sistema de Controle de Dispositivos Inteligentes**  
+
+Você foi contratado para desenvolver um **sistema de controle de dispositivos inteligentes** (como lâmpadas e televisões) que podem ser controlados por **diferentes tipos de controle remoto** (simples ou avançado).  
+
+### **Requisitos**:
+1. **Dispositivos**: O sistema deve suportar múltiplos dispositivos, como **TV** e **Lâmpada**.
+2. **Controles Remotos**: Haverá dois tipos de controles:
+   - **Controle Simples**: Liga e desliga o dispositivo.
+   - **Controle Avançado**: Além de ligar e desligar, pode ajustar configurações (como brilho da lâmpada ou volume da TV).
+3. **Bridge Pattern**: O controle remoto deve ser desacoplado dos dispositivos, permitindo que novos dispositivos sejam adicionados sem modificar os controles existentes.  
+
+---
+
+## **Tarefas**:
+
+1. **Crie uma interface `IDispositivo`**  
+   - Métodos: `Ligar()`, `Desligar()`, `DefinirVolume(int volume)`, `DefinirBrilho(int brilho)`.  
+   - Implemente as classes `Televisao` e `Lampada` baseadas nessa interface.  
+
+2. **Crie uma classe abstrata `ControleRemoto`**  
+   - Deve armazenar uma referência a um `IDispositivo`.  
+   - Deve ter métodos para `Ligar()` e `Desligar()`.  
+
+3. **Crie duas classes concretas para os controles**:  
+   - **`ControleSimples`**: Apenas liga e desliga o dispositivo.  
+   - **`ControleAvancado`**: Além de ligar e desligar, pode ajustar volume (se for TV) ou brilho (se for lâmpada).  
+
+4. **Teste o funcionamento no método `Main`**:
+   - Instancie um controle remoto avançado para uma TV e ajuste o volume.  
+   - Instancie um controle remoto simples para uma lâmpada e teste ligar e desligar.  
+
+---
+
+### **Dica** 💡  
+O **padrão Bridge** ajuda a separar **abstração** (os controles) da **implementação** (os dispositivos), tornando o código mais modular e fácil de expandir.  
+
+---  
+
+Tente implementar e me diga se precisar de ajuda! 🚀
