@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_2\\entities\\shippedstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|solutionrelative:entities\\shippedstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_2\\entities\\pendingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|solutionrelative:entities\\pendingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_2\\entities\\orderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|solutionrelative:entities\\orderstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_2\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|solutionrelative:entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_2\\entities\\canceledstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|solutionrelative:entities\\canceledstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_2\\entities\\approvedstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A514DA01-3692-F04E-78DC-092D8C256BF9}|StatePatternExercise_2.csproj|solutionrelative:entities\\approvedstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShippedStatus.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\ShippedStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\ShippedStatus.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\ShippedStatus.cs",
+              "RelativeToolTip": "Entities\\ShippedStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:13:57.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PendingStatus.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\PendingStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\PendingStatus.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\PendingStatus.cs",
+              "RelativeToolTip": "Entities\\PendingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:51:48.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderState.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\OrderState.cs",
+              "RelativeDocumentMoniker": "Entities\\OrderState.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\OrderState.cs",
+              "RelativeToolTip": "Entities\\OrderState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:48:28.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\Order.cs",
+              "RelativeToolTip": "Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:48:18.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CanceledStatus.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\CanceledStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\CanceledStatus.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\CanceledStatus.cs",
+              "RelativeToolTip": "Entities\\CanceledStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:48:16.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApprovedStatus.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\ApprovedStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\ApprovedStatus.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Entities\\ApprovedStatus.cs",
+              "RelativeToolTip": "Entities\\ApprovedStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:48:07.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:48:02.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

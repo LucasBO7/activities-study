@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StaticFactoryMethods_2
-build_property.ProjectDir = C:\Users\lucas\Desktop\arquiteturas-e-padroes\StaticFactoryMethods_2\
+build_property.ProjectDir = C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Static_Factory_Methods\StaticFactoryMethods_2SimpleVersion\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

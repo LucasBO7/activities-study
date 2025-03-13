@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\StaticFactoryMethods_2.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Static_Factory_Methods\\StaticFactoryMethods_2SimpleVersion\\StaticFactoryMethods_2.csproj",
       "projectName": "StaticFactoryMethods_2",
-      "projectPath": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\StaticFactoryMethods_2.csproj",
+      "projectPath": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Static_Factory_Methods\\StaticFactoryMethods_2SimpleVersion\\StaticFactoryMethods_2.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Desktop\\arquiteturas-e-padroes\\StaticFactoryMethods_2\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Static_Factory_Methods\\StaticFactoryMethods_2SimpleVersion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,15 @@
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.exe
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.deps.json
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.runtimeconfig.json
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.dll
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.pdb
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfo.cs
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.sourcelink.json
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.dll
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\refint\OrderProcessing.dll
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.pdb
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.genruntimeconfig.cache
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Hook_Classes\OrderProcessing\OrderProcessing\obj\Debug\net8.0\ref\OrderProcessing.dll

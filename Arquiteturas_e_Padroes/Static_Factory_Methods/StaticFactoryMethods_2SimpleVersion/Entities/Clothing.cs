@@ -2,7 +2,7 @@ namespace StaticFactoryMethods_2.Entities;
 
 public class Clothing : IProduct
 {
-    private readonly decimal _taxRate = 10;
+    private const decimal _taxRate = 10;
     private string? Name { get; set; }
     private decimal BasePrice { get; set; }
 

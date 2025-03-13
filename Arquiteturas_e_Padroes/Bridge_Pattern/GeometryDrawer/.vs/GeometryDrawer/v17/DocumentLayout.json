@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\bridge_pattern\\geometrydrawer\\geometrydrawer\\entities\\fill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|solutionrelative:geometrydrawer\\entities\\fill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\bridge_pattern\\geometrydrawer\\geometrydrawer\\entities\\outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|solutionrelative:geometrydrawer\\entities\\outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\bridge_pattern\\geometrydrawer\\geometrydrawer\\entities\\design.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|solutionrelative:geometrydrawer\\entities\\design.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\bridge_pattern\\geometrydrawer\\geometrydrawer\\entities\\geometricshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|solutionrelative:geometrydrawer\\entities\\geometricshape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\bridge_pattern\\geometrydrawer\\geometrydrawer\\entities\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|solutionrelative:geometrydrawer\\entities\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\bridge_pattern\\geometrydrawer\\geometrydrawer\\entities\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|solutionrelative:geometrydrawer\\entities\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\bridge_pattern\\geometrydrawer\\geometrydrawer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408B2EE-1382-4022-948E-F24EC0AA53B8}|GeometryDrawer\\GeometryDrawer.csproj|solutionrelative:geometrydrawer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fill.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Fill.cs",
+              "RelativeDocumentMoniker": "GeometryDrawer\\Entities\\Fill.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Fill.cs",
+              "RelativeToolTip": "GeometryDrawer\\Entities\\Fill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:58:08.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Outline.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Outline.cs",
+              "RelativeDocumentMoniker": "GeometryDrawer\\Entities\\Outline.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Outline.cs",
+              "RelativeToolTip": "GeometryDrawer\\Entities\\Outline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:57:17.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Design.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Design.cs",
+              "RelativeDocumentMoniker": "GeometryDrawer\\Entities\\Design.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Design.cs",
+              "RelativeToolTip": "GeometryDrawer\\Entities\\Design.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:56:16.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Square.cs",
+              "RelativeDocumentMoniker": "GeometryDrawer\\Entities\\Square.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Square.cs",
+              "RelativeToolTip": "GeometryDrawer\\Entities\\Square.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:55:10.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Circle.cs",
+              "RelativeDocumentMoniker": "GeometryDrawer\\Entities\\Circle.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\Circle.cs",
+              "RelativeToolTip": "GeometryDrawer\\Entities\\Circle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:54:43.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeometricShape.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\GeometricShape.cs",
+              "RelativeDocumentMoniker": "GeometryDrawer\\Entities\\GeometricShape.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Entities\\GeometricShape.cs",
+              "RelativeToolTip": "GeometryDrawer\\Entities\\GeometricShape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T17:54:10.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Program.cs",
+              "RelativeDocumentMoniker": "GeometryDrawer\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Bridge_Pattern\\GeometryDrawer\\GeometryDrawer\\Program.cs",
+              "RelativeToolTip": "GeometryDrawer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T15:25:33.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

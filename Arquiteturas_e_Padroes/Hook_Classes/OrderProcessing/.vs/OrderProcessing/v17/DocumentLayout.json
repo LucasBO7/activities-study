@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\hook_classes\\orderprocessing\\orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\hook_classes\\orderprocessing\\orderprocessing\\entities\\orderprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\entities\\orderprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\hook_classes\\orderprocessing\\orderprocessing\\entities\\discountprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\entities\\discountprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\hook_classes\\orderprocessing\\orderprocessing\\entities\\deliveryfeeprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\entities\\deliveryfeeprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|c:\\users\\lucas\\desktop\\activities-study\\arquiteturas_e_padroes\\hook_classes\\orderprocessing\\orderprocessing\\entities\\personalizedpriceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{405995D3-C8AB-4C2B-8E7E-1D1A965E99D8}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\entities\\personalizedpriceprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonalizedPriceProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\PersonalizedPriceProcessor.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Entities\\PersonalizedPriceProcessor.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\PersonalizedPriceProcessor.cs",
+              "RelativeToolTip": "OrderProcessing\\Entities\\PersonalizedPriceProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:04:25.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeliveryFeeProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\DeliveryFeeProcessor.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Entities\\DeliveryFeeProcessor.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\DeliveryFeeProcessor.cs",
+              "RelativeToolTip": "OrderProcessing\\Entities\\DeliveryFeeProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:03:54.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiscountProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\DiscountProcessor.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Entities\\DiscountProcessor.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\DiscountProcessor.cs",
+              "RelativeToolTip": "OrderProcessing\\Entities\\DiscountProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:03:25.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\OrderProcessor.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Entities\\OrderProcessor.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Entities\\OrderProcessor.cs",
+              "RelativeToolTip": "OrderProcessing\\Entities\\OrderProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T18:59:36.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Program.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\activities-study\\Arquiteturas_e_Padroes\\Hook_Classes\\OrderProcessing\\OrderProcessing\\Program.cs",
+              "RelativeToolTip": "OrderProcessing\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T18:55:25.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

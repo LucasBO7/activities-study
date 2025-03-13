@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_3\\statepatternexercise_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|solutionrelative:statepatternexercise_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_3\\statepatternexercise_3\\entities\\trafficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|solutionrelative:statepatternexercise_3\\entities\\trafficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_3\\statepatternexercise_3\\entities\\itrafficstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|solutionrelative:statepatternexercise_3\\entities\\itrafficstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_3\\statepatternexercise_3\\entities\\states\\yellowstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|solutionrelative:statepatternexercise_3\\entities\\states\\yellowstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_3\\statepatternexercise_3\\entities\\states\\redstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|solutionrelative:statepatternexercise_3\\entities\\states\\redstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|c:\\users\\lucas\\desktop\\statepatternexercise_3\\statepatternexercise_3\\entities\\states\\greenstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4BC861-682B-4855-946C-444716006BE8}|StatePatternExercise_3\\StatePatternExercise_3.csproj|solutionrelative:statepatternexercise_3\\entities\\states\\greenstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "YellowState.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\States\\YellowState.cs",
+              "RelativeDocumentMoniker": "StatePatternExercise_3\\Entities\\States\\YellowState.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\States\\YellowState.cs",
+              "RelativeToolTip": "StatePatternExercise_3\\Entities\\States\\YellowState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:27:46.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GreenState.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\States\\GreenState.cs",
+              "RelativeDocumentMoniker": "StatePatternExercise_3\\Entities\\States\\GreenState.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\States\\GreenState.cs",
+              "RelativeToolTip": "StatePatternExercise_3\\Entities\\States\\GreenState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:27:38.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RedState.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\States\\RedState.cs",
+              "RelativeDocumentMoniker": "StatePatternExercise_3\\Entities\\States\\RedState.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\States\\RedState.cs",
+              "RelativeToolTip": "StatePatternExercise_3\\Entities\\States\\RedState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:27:33.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITrafficState.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\ITrafficState.cs",
+              "RelativeDocumentMoniker": "StatePatternExercise_3\\Entities\\ITrafficState.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\ITrafficState.cs",
+              "RelativeToolTip": "StatePatternExercise_3\\Entities\\ITrafficState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:25:20.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrafficLight.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\TrafficLight.cs",
+              "RelativeDocumentMoniker": "StatePatternExercise_3\\Entities\\TrafficLight.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Entities\\TrafficLight.cs",
+              "RelativeToolTip": "StatePatternExercise_3\\Entities\\TrafficLight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:22:55.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Program.cs",
+              "RelativeDocumentMoniker": "StatePatternExercise_3\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\StatePatternExercise_3\\StatePatternExercise_3\\Program.cs",
+              "RelativeToolTip": "StatePatternExercise_3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:17:27.268Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

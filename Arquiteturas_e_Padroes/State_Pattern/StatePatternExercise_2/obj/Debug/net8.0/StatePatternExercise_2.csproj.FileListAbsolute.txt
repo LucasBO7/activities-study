@@ -1,0 +1,14 @@
+C:\Users\lucas\Desktop\StatePatternExercise_2\bin\Debug\net8.0\StatePatternExercise_2.exe
+C:\Users\lucas\Desktop\StatePatternExercise_2\bin\Debug\net8.0\StatePatternExercise_2.deps.json
+C:\Users\lucas\Desktop\StatePatternExercise_2\bin\Debug\net8.0\StatePatternExercise_2.runtimeconfig.json
+C:\Users\lucas\Desktop\StatePatternExercise_2\bin\Debug\net8.0\StatePatternExercise_2.dll
+C:\Users\lucas\Desktop\StatePatternExercise_2\bin\Debug\net8.0\StatePatternExercise_2.pdb
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\StatePatternExercise_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\StatePatternExercise_2.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\StatePatternExercise_2.AssemblyInfo.cs
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\StatePatternExercise_2.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\StatePatternExercise_2.dll
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\refint\StatePatternExercise_2.dll
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\StatePatternExercise_2.pdb
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\StatePatternExercise_2.genruntimeconfig.cache
+C:\Users\lucas\Desktop\StatePatternExercise_2\obj\Debug\net8.0\ref\StatePatternExercise_2.dll

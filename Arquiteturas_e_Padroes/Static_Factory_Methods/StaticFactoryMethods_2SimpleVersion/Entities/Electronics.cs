@@ -2,7 +2,7 @@ namespace StaticFactoryMethods_2.Entities;
 
 public class Electronics : IProduct
 {
-    private readonly decimal _taxRate = 15;
+    private const decimal _taxRate = 15;
     private string? Name { get; set; }
     private decimal BasePrice { get; set; }
 

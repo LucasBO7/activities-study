@@ -2,7 +2,7 @@ namespace StaticFactoryMethods_2.Entities;
 
 public class Food : IProduct
 {
-    private readonly decimal _taxRate = 5;
+    private const decimal _taxRate = 5;
     private string? Name { get; set; }
     private decimal BasePrice { get; set; }
 
@@ -12,6 +12,7 @@ public class Food : IProduct
         BasePrice = basePrice;
     }
 
+    // Static Factory Method
     public static Food CreateFood(string name, decimal basePrice)
     {
         return new Food(name, basePrice);

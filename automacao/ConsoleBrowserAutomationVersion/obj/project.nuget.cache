@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Gu26boPLA1g=",
+  "dgSpecHash": "HQOkiJNs7go=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Batata Voadora\\Desktop\\activities-study\\ConsoleBrowserAutomationVersion\\ConsoleBrowserAutomationVersion.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Desktop\\activities-study\\Automacao\\ConsoleBrowserAutomationVersion\\ConsoleBrowserAutomationVersion.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Batata Voadora\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Batata Voadora\\.nuget\\packages\\selenium.webdriver\\4.23.0\\selenium.webdriver.4.23.0.nupkg.sha512",
-    "C:\\Users\\Batata Voadora\\.nuget\\packages\\selenium.webdriver.chromedriver\\126.0.6478.18200\\selenium.webdriver.chromedriver.126.0.6478.18200.nupkg.sha512"
+    "C:\\Users\\lucas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\selenium.webdriver\\4.23.0\\selenium.webdriver.4.23.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\selenium.webdriver.chromedriver\\126.0.6478.18200\\selenium.webdriver.chromedriver.126.0.6478.18200.nupkg.sha512"
   ],
   "logs": []
 }
