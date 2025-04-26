@@ -1,0 +1,15 @@
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\bin\Debug\net8.0\Observer_Exercise2.exe
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\bin\Debug\net8.0\Observer_Exercise2.deps.json
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\bin\Debug\net8.0\Observer_Exercise2.runtimeconfig.json
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\bin\Debug\net8.0\Observer_Exercise2.dll
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\bin\Debug\net8.0\Observer_Exercise2.pdb
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.AssemblyInfo.cs
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.sourcelink.json
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.dll
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\refint\Observer_Exercise2.dll
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.pdb
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\Observer_Exercise2.genruntimeconfig.cache
+C:\Users\lucas\Desktop\activities-study\Arquiteturas_e_Padroes\Observer_Pattern\Observer_Exercise1\Observer_Exercise2\obj\Debug\net8.0\ref\Observer_Exercise2.dll
